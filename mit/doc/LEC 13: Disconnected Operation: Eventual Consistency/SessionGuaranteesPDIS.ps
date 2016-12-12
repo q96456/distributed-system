@@ -1,0 +1,6227 @@
+%!PS-Adobe-3.0
+%%BoundingBox: (atend)
+%%Pages: (atend)
+%%PageOrder: (atend)
+%%DocumentFonts: (atend)
+%%Creator: Frame 4.0
+%%DocumentData: Clean7Bit
+%%EndComments
+%%BeginProlog
+%
+% Frame ps_prolog 4.0, for use with Frame 4.0 products
+% This ps_prolog file is Copyright (c) 1986-1993 Frame Technology
+% Corporation.  All rights reserved.  This ps_prolog file may be
+% freely copied and distributed in conjunction with documents created
+% using FrameMaker, FrameBuilder and FrameViewer as long as this 
+% copyright notice is preserved.
+%
+% Frame products normally print colors as their true color on a color printer
+% or as shades of gray, based on luminance, on a black-and white printer. The
+% following flag, if set to True, forces all non-white colors to print as pure
+% black. This has no effect on bitmap images.
+/FMPrintAllColorsAsBlack             false def
+%
+% Frame products can either set their own line screens or use a printer's 
+% default settings. Three flags below control this separately for no 
+% separations, spot separations and process separations. If a flag
+% is true, then the default printer settings will not be changed. If it is
+% false, Frame products will use their own settings from a table based on
+% the printer's resolution.
+/FMUseDefaultNoSeparationScreen      true  def
+/FMUseDefaultSpotSeparationScreen    true  def
+/FMUseDefaultProcessSeparationScreen false def
+%
+% For any given PostScript printer resolution, Frame products have two sets of 
+% screen angles and frequencies for printing process separations, which are 
+% recomended by Adobe. The following variable chooses the higher frequencies
+% when set to true or the lower frequencies when set to false. This is only
+% effective if the appropriate FMUseDefault...SeparationScreen flag is false.
+/FMUseHighFrequencyScreens true def
+%
+% PostScript Level 2 printers contain an "Accurate Screens" feature which can
+% improve process separation rendering at the expense of compute time. This 
+% flag is ignored by PostScript Level 1 printers.
+/FMUseAcccurateScreens true def
+%
+% The following PostScript procedure defines the spot function that Frame
+% products will use for process separations. You may un-comment-out one of
+% the alternative functions below, or use your own.
+%
+% Dot function
+/FMSpotFunction {abs exch abs 2 copy add 1 gt 
+		{1 sub dup mul exch 1 sub dup mul add 1 sub }
+		{dup mul exch dup mul add 1 exch sub }ifelse } def
+%
+% Line function
+% /FMSpotFunction { pop } def
+%
+% Elipse function
+% /FMSpotFunction { dup 5 mul 8 div mul exch dup mul exch add 
+%		sqrt 1 exch sub } def
+%
+%
+/FMversion (4.0) def 
+/FMLevel1 /languagelevel where {pop languagelevel} {1} ifelse 2 lt def
+/FMPColor
+	FMLevel1 {
+		false
+		/colorimage where {pop pop true} if
+	} {
+		true
+	} ifelse
+def
+/FrameDict 400 dict def 
+systemdict /errordict known not {/errordict 10 dict def
+		errordict /rangecheck {stop} put} if
+% The readline in PS 23.0 doesn't recognize cr's as nl's on AppleTalk
+FrameDict /tmprangecheck errordict /rangecheck get put 
+errordict /rangecheck {FrameDict /bug true put} put 
+FrameDict /bug false put 
+mark 
+% Some PS machines read past the CR, so keep the following 3 lines together!
+currentfile 5 string readline
+00
+0000000000
+cleartomark 
+errordict /rangecheck FrameDict /tmprangecheck get put 
+FrameDict /bug get { 
+	/readline {
+		/gstring exch def
+		/gfile exch def
+		/gindex 0 def
+		{
+			gfile read pop 
+			dup 10 eq {exit} if 
+			dup 13 eq {exit} if 
+			gstring exch gindex exch put 
+			/gindex gindex 1 add def 
+		} loop
+		pop 
+		gstring 0 gindex getinterval true 
+		} bind def
+	} if
+/FMshowpage /showpage load def
+/FMquit /quit load def
+/FMFAILURE { 
+	dup = flush 
+	FMshowpage 
+	/Helvetica findfont 12 scalefont setfont
+	72 200 moveto
+	show FMshowpage 
+	FMquit 
+	} def 
+/FMVERSION {
+	FMversion ne {
+		(Frame product version does not match ps_prolog!) FMFAILURE
+		} if
+	} def 
+/FMBADEPSF { 
+	(PostScript Lang. Ref. Man., 2nd Ed., H.2.4 says EPS must not call X              )
+	dup dup (X) search pop exch pop exch pop length 
+	4 -1 roll 
+	putinterval 
+	FMFAILURE
+	} def
+/FMLOCAL {
+	FrameDict begin
+	0 def 
+	end 
+	} def 
+/concatprocs
+	{
+	/proc2 exch cvlit def/proc1 exch cvlit def/newproc proc1 length proc2 length add array def
+	newproc 0 proc1 putinterval newproc proc1 length proc2 putinterval newproc cvx
+}def
+FrameDict begin 
+/FMnone 0 def
+/FMcyan 1 def
+/FMmagenta 2 def
+/FMyellow 3 def
+/FMblack 4 def
+/FMcustom 5 def
+/FrameNegative false def 
+/FrameSepIs FMnone def 
+/FrameSepBlack 0 def
+/FrameSepYellow 0 def
+/FrameSepMagenta 0 def
+/FrameSepCyan 0 def
+/FrameSepRed 1 def
+/FrameSepGreen 1 def
+/FrameSepBlue 1 def
+/FrameCurGray 1 def
+/FrameCurPat null def
+/FrameCurColors [ 0 0 0 1 0 0 0 ] def 
+/FrameColorEpsilon .001 def	
+/eqepsilon {		
+	sub dup 0 lt {neg} if
+	FrameColorEpsilon le
+} bind def
+/FrameCmpColorsCMYK { 
+	2 copy 0 get exch 0 get eqepsilon {
+		2 copy 1 get exch 1 get eqepsilon {
+			2 copy 2 get exch 2 get eqepsilon {
+				3 get exch 3 get eqepsilon
+			} {pop pop false} ifelse
+		}{pop pop false} ifelse
+	} {pop pop false} ifelse
+} bind def
+/FrameCmpColorsRGB { 
+	2 copy 4 get exch 0 get eqepsilon {
+		2 copy 5 get exch 1 get eqepsilon {
+			6 get exch 2 get eqepsilon
+		}{pop pop false} ifelse
+	} {pop pop false} ifelse
+} bind def
+/RGBtoCMYK { 
+	1 exch sub 
+	3 1 roll 
+	1 exch sub 
+	3 1 roll 
+	1 exch sub 
+	3 1 roll 
+	3 copy 
+	2 copy 
+	le { pop } { exch pop } ifelse 
+	2 copy 
+	le { pop } { exch pop } ifelse 
+	dup dup dup 
+	6 1 roll 
+	4 1 roll 
+	7 1 roll 
+	sub 
+	6 1 roll 
+	sub 
+	5 1 roll 
+	sub 
+	4 1 roll 
+} bind def
+/CMYKtoRGB { 
+	dup dup 4 -1 roll add 						  
+	5 1 roll 3 -1 roll add 						  
+	4 1 roll add 								  
+	1 exch sub dup 0 lt {pop 0} if 3 1 roll 	  
+	1 exch sub dup 0 lt {pop 0} if exch 	      
+	1 exch sub dup 0 lt {pop 0} if exch	  		  
+} bind def
+/FrameSepInit {
+	1.0 RealSetgray
+} bind def
+/FrameSetSepColor { 
+	/FrameSepBlue exch def
+	/FrameSepGreen exch def
+	/FrameSepRed exch def
+	/FrameSepBlack exch def
+	/FrameSepYellow exch def
+	/FrameSepMagenta exch def
+	/FrameSepCyan exch def
+	/FrameSepIs FMcustom def
+	setCurrentScreen	
+} bind def
+/FrameSetCyan {
+	/FrameSepBlue 1.0 def
+	/FrameSepGreen 1.0 def
+	/FrameSepRed 0.0 def
+	/FrameSepBlack 0.0 def
+	/FrameSepYellow 0.0 def
+	/FrameSepMagenta 0.0 def
+	/FrameSepCyan 1.0 def
+	/FrameSepIs FMcyan def
+	setCurrentScreen	
+} bind def
+ 
+/FrameSetMagenta {
+	/FrameSepBlue 1.0 def
+	/FrameSepGreen 0.0 def
+	/FrameSepRed 1.0 def
+	/FrameSepBlack 0.0 def
+	/FrameSepYellow 0.0 def
+	/FrameSepMagenta 1.0 def
+	/FrameSepCyan 0.0 def
+	/FrameSepIs FMmagenta def
+	setCurrentScreen
+} bind def
+ 
+/FrameSetYellow {
+	/FrameSepBlue 0.0 def
+	/FrameSepGreen 1.0 def
+	/FrameSepRed 1.0 def
+	/FrameSepBlack 0.0 def
+	/FrameSepYellow 1.0 def
+	/FrameSepMagenta 0.0 def
+	/FrameSepCyan 0.0 def
+	/FrameSepIs FMyellow def
+	setCurrentScreen
+} bind def
+ 
+/FrameSetBlack {
+	/FrameSepBlue 0.0 def
+	/FrameSepGreen 0.0 def
+	/FrameSepRed 0.0 def
+	/FrameSepBlack 1.0 def
+	/FrameSepYellow 0.0 def
+	/FrameSepMagenta 0.0 def
+	/FrameSepCyan 0.0 def
+	/FrameSepIs FMblack def
+	setCurrentScreen
+} bind def
+ 
+/FrameNoSep { 
+	/FrameSepIs FMnone def
+	setCurrentScreen
+} bind def
+/FrameSetSepColors { 
+	FrameDict begin
+	[ exch 1 add 1 roll ]
+	/FrameSepColors  
+	exch def end
+	} bind def
+/FrameColorInSepListCMYK { 
+	FrameSepColors {  
+       		exch dup 3 -1 roll 
+       		FrameCmpColorsCMYK 
+       		{ pop true exit } if
+    	} forall 
+	dup true ne {pop false} if
+	} bind def
+/FrameColorInSepListRGB { 
+	FrameSepColors {  
+       		exch dup 3 -1 roll 
+       		FrameCmpColorsRGB 
+       		{ pop true exit } if
+    	} forall 
+	dup true ne {pop false} if
+	} bind def
+/RealSetgray /setgray load def
+/RealSetrgbcolor /setrgbcolor load def
+/RealSethsbcolor /sethsbcolor load def
+end 
+/setgray { 
+	FrameDict begin
+	FrameSepIs FMnone eq
+		{ RealSetgray } 
+		{ 
+		FrameSepIs FMblack eq 
+			{ RealSetgray } 
+			{ FrameSepIs FMcustom eq 
+			  FrameSepRed 0 eq and
+			  FrameSepGreen 0 eq and
+			  FrameSepBlue 0 eq and {
+			  	RealSetgray
+			  } {
+				1 RealSetgray pop 
+			  } ifelse
+			} ifelse
+		} ifelse
+	end
+} bind def
+/setrgbcolor { 
+	FrameDict begin
+	FrameSepIs FMnone eq
+	{  RealSetrgbcolor }
+	{
+		3 copy [ 4 1 roll ] 
+		FrameColorInSepListRGB
+		{
+				FrameSepBlue eq exch 
+			 	FrameSepGreen eq and exch 
+			 	FrameSepRed eq and
+			 	{ 0 } { 1 } ifelse
+		}
+		{
+			FMPColor {
+				RealSetrgbcolor
+				currentcmykcolor
+			} {
+				RGBtoCMYK
+			} ifelse
+			FrameSepIs FMblack eq
+			{1.0 exch sub 4 1 roll pop pop pop} {
+			FrameSepIs FMyellow eq
+			{pop 1.0 exch sub 3 1 roll pop pop} {
+			FrameSepIs FMmagenta eq
+			{pop pop 1.0 exch sub exch pop } {
+			FrameSepIs FMcyan eq
+			{pop pop pop 1.0 exch sub } 
+			{pop pop pop pop 1} ifelse } ifelse } ifelse } ifelse 
+		} ifelse
+		RealSetgray
+	} 
+	ifelse
+	end
+} bind def
+/sethsbcolor {
+	FrameDict begin
+	FrameSepIs FMnone eq 
+	{ RealSethsbcolor } 
+	{
+		RealSethsbcolor 
+		currentrgbcolor  
+		setrgbcolor 
+	} 
+	ifelse
+	end
+} bind def
+FrameDict begin
+/setcmykcolor where {
+	pop /RealSetcmykcolor /setcmykcolor load def
+} {
+	/RealSetcmykcolor {
+		4 1 roll
+		3 { 3 index add 0 max 1 min 1 exch sub 3 1 roll} repeat 
+		setrgbcolor pop
+	} bind def
+} ifelse
+userdict /setcmykcolor { 
+		FrameDict begin
+		FrameSepIs FMnone eq
+		{ RealSetcmykcolor } 
+		{
+			4 copy [ 5 1 roll ]
+			FrameColorInSepListCMYK
+			{
+				FrameSepBlack eq exch 
+				FrameSepYellow eq and exch 
+				FrameSepMagenta eq and exch 
+				FrameSepCyan eq and 
+				{ 0 } { 1 } ifelse
+			}
+			{
+				FrameSepIs FMblack eq
+				{1.0 exch sub 4 1 roll pop pop pop} {
+				FrameSepIs FMyellow eq
+				{pop 1.0 exch sub 3 1 roll pop pop} {
+				FrameSepIs FMmagenta eq
+				{pop pop 1.0 exch sub exch pop } {
+				FrameSepIs FMcyan eq
+				{pop pop pop 1.0 exch sub } 
+				{pop pop pop pop 1} ifelse } ifelse } ifelse } ifelse 
+			} ifelse
+			RealSetgray
+		}
+		ifelse
+		end
+	} bind put
+FMLevel1 not { 
+	
+	/patProcDict 5 dict dup begin
+		<0f1e3c78f0e1c387> { 3 setlinewidth -1 -1 moveto 9 9 lineto stroke 
+											4 -4 moveto 12 4 lineto stroke
+											-4 4 moveto 4 12 lineto stroke} bind def
+		<0f87c3e1f0783c1e> { 3 setlinewidth -1 9 moveto 9 -1 lineto stroke 
+											-4 4 moveto 4 -4 lineto stroke
+											4 12 moveto 12 4 lineto stroke} bind def
+		<8142241818244281> { 1 setlinewidth -1 9 moveto 9 -1 lineto stroke
+											-1 -1 moveto 9 9 lineto stroke } bind def
+		<03060c183060c081> { 1 setlinewidth -1 -1 moveto 9 9 lineto stroke 
+											4 -4 moveto 12 4 lineto stroke
+											-4 4 moveto 4 12 lineto stroke} bind def
+		<8040201008040201> { 1 setlinewidth -1 9 moveto 9 -1 lineto stroke 
+											-4 4 moveto 4 -4 lineto stroke
+											4 12 moveto 12 4 lineto stroke} bind def
+	end def
+	/patDict 15 dict dup begin
+		/PatternType 1 def		
+		/PaintType 2 def		
+		/TilingType 3 def		
+		/BBox [ 0 0 8 8 ] def 	
+		/XStep 8 def			
+		/YStep 8 def			
+		/PaintProc {
+			begin
+			patProcDict bstring known {
+				patProcDict bstring get exec
+			} {
+				8 8 true [1 0 0 -1 0 8] bstring imagemask
+			} ifelse
+			end
+		} bind def
+	end def
+} if
+/combineColor {
+    FrameSepIs FMnone eq
+	{
+		graymode FMLevel1 or not {
+			
+			[/Pattern [/DeviceCMYK]] setcolorspace
+			FrameCurColors 0 4 getinterval aload pop FrameCurPat setcolor
+		} {
+			FrameCurColors 3 get 1.0 ge {
+				FrameCurGray RealSetgray
+			} {
+				FMPColor graymode and {
+					0 1 3 { 
+						FrameCurColors exch get
+						1 FrameCurGray sub mul
+					} for
+					RealSetcmykcolor
+				} {
+					4 1 6 {
+						FrameCurColors exch get
+						graymode {
+							1 exch sub 1 FrameCurGray sub mul 1 exch sub
+						} {
+							1.0 lt {FrameCurGray} {1} ifelse
+						} ifelse
+					} for
+					RealSetrgbcolor
+				} ifelse
+			} ifelse
+		} ifelse
+	} { 
+		FrameCurColors 0 4 getinterval aload
+		FrameColorInSepListCMYK {
+			FrameSepBlack eq exch 
+			FrameSepYellow eq and exch 
+			FrameSepMagenta eq and exch 
+			FrameSepCyan eq and
+			FrameSepIs FMcustom eq and
+			{ FrameCurGray } { 1 } ifelse
+		} {
+			FrameSepIs FMblack eq
+			{FrameCurGray 1.0 exch sub mul 1.0 exch sub 4 1 roll pop pop pop} {
+			FrameSepIs FMyellow eq
+			{pop FrameCurGray 1.0 exch sub mul 1.0 exch sub 3 1 roll pop pop} {
+			FrameSepIs FMmagenta eq
+			{pop pop FrameCurGray 1.0 exch sub mul 1.0 exch sub exch pop } {
+			FrameSepIs FMcyan eq
+			{pop pop pop FrameCurGray 1.0 exch sub mul 1.0 exch sub } 
+			{pop pop pop pop 1} ifelse } ifelse } ifelse } ifelse 
+		} ifelse
+		graymode FMLevel1 or not {
+			
+			[/Pattern [/DeviceGray]] setcolorspace
+			FrameCurPat setcolor
+		} { 
+			graymode not FMLevel1 and {
+				
+				dup 1 lt {pop FrameCurGray} if
+			} if
+			RealSetgray
+		} ifelse
+	} ifelse
+} bind def
+/savematrix {
+	orgmatrix currentmatrix pop
+	} bind def
+/restorematrix {
+	orgmatrix setmatrix
+	} bind def
+/dmatrix matrix def
+/dpi    72 0 dmatrix defaultmatrix dtransform
+    dup mul exch   dup mul add   sqrt def
+	
+/freq dpi dup 72 div round dup 0 eq {pop 1} if 8 mul div def
+/sangle 1 0 dmatrix defaultmatrix dtransform exch atan def
+/dpiranges   [  2540    2400    1693     1270    1200     635      600      0      ] def
+/CMLowFreqs  [ 100.402  94.8683 89.2289 100.402  94.8683  66.9349  63.2456 47.4342 ] def
+/YLowFreqs   [  95.25   90.0    84.65    95.25   90.0     70.5556  66.6667 50.0    ] def
+/KLowFreqs   [  89.8026 84.8528 79.8088  89.8026 84.8528  74.8355  70.7107 53.033  ] def
+/CLowAngles  [  71.5651 71.5651 71.5651 71.5651  71.5651  71.5651  71.5651 71.5651 ] def
+/MLowAngles  [  18.4349 18.4349 18.4349 18.4349  18.4349  18.4349  18.4349 18.4349 ] def
+/YLowTDot    [  true    true    false    true    true     false    false   false   ] def
+/CMHighFreqs [ 133.87  126.491 133.843  108.503 102.523  100.402   94.8683 63.2456 ] def
+/YHighFreqs  [ 127.0   120.0   126.975  115.455 109.091   95.25    90.0    60.0    ] def
+/KHighFreqs  [ 119.737 113.137 119.713  128.289 121.218   89.8026  84.8528 63.6395 ] def
+/CHighAngles [  71.5651 71.5651 71.5651  70.0169 70.0169  71.5651  71.5651 71.5651 ] def
+/MHighAngles [  18.4349 18.4349 18.4349  19.9831 19.9831  18.4349  18.4349 18.4349 ] def
+/YHighTDot   [  false   false   true     false   false    true     true    false   ] def
+/PatFreq     [	10.5833 10.0     9.4055  10.5833 10.0	  10.5833  10.0	   9.375   ] def
+/screenIndex {
+	0 1 dpiranges length 1 sub { dup dpiranges exch get 1 sub dpi le {exit} {pop} ifelse } for
+} bind def
+/getCyanScreen {
+	FMUseHighFrequencyScreens { CHighAngles CMHighFreqs} {CLowAngles CMLowFreqs} ifelse
+		screenIndex dup 3 1 roll get 3 1 roll get /FMSpotFunction load
+} bind def
+/getMagentaScreen {
+	FMUseHighFrequencyScreens { MHighAngles CMHighFreqs } {MLowAngles CMLowFreqs} ifelse
+		screenIndex dup 3 1 roll get 3 1 roll get /FMSpotFunction load
+} bind def
+/getYellowScreen {
+	FMUseHighFrequencyScreens { YHighTDot YHighFreqs} { YLowTDot YLowFreqs } ifelse
+		screenIndex dup 3 1 roll get 3 1 roll get { 3 div
+			{2 { 1 add 2 div 3 mul dup floor sub 2 mul 1 sub exch} repeat
+			FMSpotFunction } } {/FMSpotFunction load } ifelse
+			0.0 exch
+} bind def
+/getBlackScreen  {
+	FMUseHighFrequencyScreens { KHighFreqs } { KLowFreqs } ifelse
+		screenIndex get 45.0 /FMSpotFunction load 
+} bind def
+/getSpotScreen {
+	getBlackScreen
+} bind def
+/getCompositeScreen {
+	getBlackScreen
+} bind def
+/FMSetScreen 
+	FMLevel1 { /setscreen load 
+	}{ {
+		8 dict begin
+		/HalftoneType 1 def
+		/SpotFunction exch def
+		/Angle exch def
+		/Frequency exch def
+		/AccurateScreens FMUseAcccurateScreens def
+		currentdict end sethalftone
+	} bind } ifelse
+def
+/setDefaultScreen {
+	FMPColor {
+		orgrxfer cvx orggxfer cvx orgbxfer cvx orgxfer cvx setcolortransfer
+	}
+	{
+		orgxfer cvx settransfer
+	} ifelse
+	orgfreq organgle orgproc cvx setscreen
+} bind def
+/setCurrentScreen {
+	FrameSepIs FMnone eq {
+		FMUseDefaultNoSeparationScreen {
+			setDefaultScreen
+		} {
+			getCompositeScreen FMSetScreen
+		} ifelse
+	} {
+		FrameSepIs FMcustom eq {
+			FMUseDefaultSpotSeparationScreen {
+				setDefaultScreen
+			} {
+				getSpotScreen FMSetScreen
+			} ifelse
+		} {
+			FMUseDefaultProcessSeparationScreen {
+				setDefaultScreen
+			} {
+				FrameSepIs FMcyan eq {
+					getCyanScreen FMSetScreen
+				} {
+					FrameSepIs FMmagenta eq {
+						getMagentaScreen FMSetScreen
+					} {
+						FrameSepIs FMyellow eq {
+							getYellowScreen FMSetScreen
+						} {
+							getBlackScreen FMSetScreen
+						} ifelse
+					} ifelse
+				} ifelse
+			} ifelse
+		} ifelse
+	} ifelse 
+} bind def
+end
+	/gstring FMLOCAL
+	/gfile FMLOCAL
+	/gindex FMLOCAL
+	/orgrxfer FMLOCAL
+	/orggxfer FMLOCAL
+	/orgbxfer FMLOCAL
+	/orgxfer FMLOCAL
+	/orgproc FMLOCAL
+	/orgrproc FMLOCAL
+	/orggproc FMLOCAL
+	/orgbproc FMLOCAL
+	/organgle FMLOCAL
+	/orgrangle FMLOCAL
+	/orggangle FMLOCAL
+	/orgbangle FMLOCAL
+	/orgfreq FMLOCAL
+	/orgrfreq FMLOCAL
+	/orggfreq FMLOCAL
+	/orgbfreq FMLOCAL
+	/yscale FMLOCAL
+	/xscale FMLOCAL
+	/edown FMLOCAL
+	/manualfeed FMLOCAL
+	/paperheight FMLOCAL
+	/paperwidth FMLOCAL
+/FMDOCUMENT { 
+	array /FMfonts exch def 
+	/#copies exch def
+	FrameDict begin
+	0 ne /manualfeed exch def
+	/paperheight exch def
+	/paperwidth exch def
+	0 ne /FrameNegative exch def 
+	0 ne /edown exch def 
+	/yscale exch def
+	/xscale exch def
+	FMLevel1 {
+		manualfeed {setmanualfeed} if
+		/FMdicttop countdictstack 1 add def 
+		/FMoptop count def 
+		setpapername 
+		manualfeed {true} {papersize} ifelse 
+		{manualpapersize} {false} ifelse 
+		{desperatepapersize} {false} ifelse 
+		{ (Can't select requested paper size for Frame print job!) FMFAILURE } if
+		count -1 FMoptop {pop pop} for
+		countdictstack -1 FMdicttop {pop end} for 
+		}
+		{{1 dict dup /PageSize [paperwidth paperheight]put setpagedevice}stopped
+		{ (Can't select requested paper size for Frame print job!) FMFAILURE } if
+		 {1 dict dup /ManualFeed manualfeed put setpagedevice } stopped pop }
+	ifelse 
+	
+	FMPColor {
+		currentcolorscreen
+			cvlit /orgproc exch def
+				  /organgle exch def 
+				  /orgfreq exch def
+			cvlit /orgbproc exch def
+				  /orgbangle exch def 
+				  /orgbfreq exch def
+			cvlit /orggproc exch def
+				  /orggangle exch def 
+				  /orggfreq exch def
+			cvlit /orgrproc exch def
+				  /orgrangle exch def 
+				  /orgrfreq exch def
+			currentcolortransfer 
+			FrameNegative {
+				1 1 4 { 
+					pop { 1 exch sub } concatprocs 4 1 roll
+				} for
+				4 copy
+				setcolortransfer
+			} if
+			cvlit /orgxfer exch def
+			cvlit /orgbxfer exch def
+			cvlit /orggxfer exch def
+			cvlit /orgrxfer exch def
+	} {
+		currentscreen 
+			cvlit /orgproc exch def
+				  /organgle exch def 
+				  /orgfreq exch def
+				  
+		currenttransfer 
+		FrameNegative {
+			{ 1 exch sub } concatprocs
+			dup settransfer
+		} if 
+		cvlit /orgxfer exch def
+	} ifelse
+	end 
+} def 
+/pagesave FMLOCAL
+/orgmatrix FMLOCAL
+/landscape FMLOCAL
+/pwid FMLOCAL
+/FMBEGINPAGE { 
+	FrameDict begin 
+	/pagesave save def
+	3.86 setmiterlimit
+	/landscape exch 0 ne def
+	landscape { 
+		90 rotate 0 exch dup /pwid exch def neg translate pop 
+	}{
+		pop /pwid exch def
+	} ifelse
+	edown { [-1 0 0 1 pwid 0] concat } if
+	0 0 moveto paperwidth 0 lineto paperwidth paperheight lineto 
+	0 paperheight lineto 0 0 lineto 1 setgray fill
+	xscale yscale scale
+	/orgmatrix matrix def
+	gsave 
+} def 
+/FMENDPAGE {
+	grestore 
+	pagesave restore
+	end 
+	showpage
+	} def 
+/FMFONTDEFINE { 
+	FrameDict begin
+	findfont 
+	ReEncode 
+	1 index exch 
+	definefont 
+	FMfonts 3 1 roll 
+	put
+	end 
+	} def 
+/FMFILLS {
+	FrameDict begin dup
+	array /fillvals exch def
+	dict /patCache exch def
+	end 
+	} def 
+/FMFILL {
+	FrameDict begin
+	 fillvals 3 1 roll put
+	end 
+	} def 
+/FMNORMALIZEGRAPHICS { 
+	newpath
+	0.0 0.0 moveto
+	1 setlinewidth
+	0 setlinecap
+	0 0 0 sethsbcolor
+	0 setgray 
+	} bind def
+	/fx FMLOCAL
+	/fy FMLOCAL
+	/fh FMLOCAL
+	/fw FMLOCAL
+	/llx FMLOCAL
+	/lly FMLOCAL
+	/urx FMLOCAL
+	/ury FMLOCAL
+/FMBEGINEPSF { 
+	end 
+	/FMEPSF save def 
+	/showpage {} def 
+% See Adobe's "PostScript Language Reference Manual, 2nd Edition", page 714.
+% "...the following operators MUST NOT be used in an EPS file:" (emphasis ours)
+	/banddevice {(banddevice) FMBADEPSF} def
+	/clear {(clear) FMBADEPSF} def
+	/cleardictstack {(cleardictstack) FMBADEPSF} def 
+	/copypage {(copypage) FMBADEPSF} def
+	/erasepage {(erasepage) FMBADEPSF} def
+	/exitserver {(exitserver) FMBADEPSF} def
+	/framedevice {(framedevice) FMBADEPSF} def
+	/grestoreall {(grestoreall) FMBADEPSF} def
+	/initclip {(initclip) FMBADEPSF} def
+	/initgraphics {(initgraphics) FMBADEPSF} def
+	/initmatrix {(initmatrix) FMBADEPSF} def
+	/quit {(quit) FMBADEPSF} def
+	/renderbands {(renderbands) FMBADEPSF} def
+	/setglobal {(setglobal) FMBADEPSF} def
+	/setpagedevice {(setpagedevice) FMBADEPSF} def
+	/setshared {(setshared) FMBADEPSF} def
+	/startjob {(startjob) FMBADEPSF} def
+	/lettertray {(lettertray) FMBADEPSF} def
+	/letter {(letter) FMBADEPSF} def
+	/lettersmall {(lettersmall) FMBADEPSF} def
+	/11x17tray {(11x17tray) FMBADEPSF} def
+	/11x17 {(11x17) FMBADEPSF} def
+	/ledgertray {(ledgertray) FMBADEPSF} def
+	/ledger {(ledger) FMBADEPSF} def
+	/legaltray {(legaltray) FMBADEPSF} def
+	/legal {(legal) FMBADEPSF} def
+	/statementtray {(statementtray) FMBADEPSF} def
+	/statement {(statement) FMBADEPSF} def
+	/executivetray {(executivetray) FMBADEPSF} def
+	/executive {(executive) FMBADEPSF} def
+	/a3tray {(a3tray) FMBADEPSF} def
+	/a3 {(a3) FMBADEPSF} def
+	/a4tray {(a4tray) FMBADEPSF} def
+	/a4 {(a4) FMBADEPSF} def
+	/a4small {(a4small) FMBADEPSF} def
+	/b4tray {(b4tray) FMBADEPSF} def
+	/b4 {(b4) FMBADEPSF} def
+	/b5tray {(b5tray) FMBADEPSF} def
+	/b5 {(b5) FMBADEPSF} def
+	FMNORMALIZEGRAPHICS 
+	[/fy /fx /fh /fw /ury /urx /lly /llx] {exch def} forall 
+	fx fw 2 div add fy fh 2 div add  translate
+	rotate
+	fw 2 div neg fh 2 div neg translate
+	fw urx llx sub div fh ury lly sub div scale 
+	llx neg lly neg translate 
+	/FMdicttop countdictstack 1 add def 
+	/FMoptop count def 
+	} bind def
+/FMENDEPSF {
+	count -1 FMoptop {pop pop} for 
+	countdictstack -1 FMdicttop {pop end} for 
+	FMEPSF restore
+	FrameDict begin 
+	} bind def
+FrameDict begin 
+/setmanualfeed {
+%%BeginFeature *ManualFeed True
+	 statusdict /manualfeed true put
+%%EndFeature
+	} bind def
+/max {2 copy lt {exch} if pop} bind def
+/min {2 copy gt {exch} if pop} bind def
+/inch {72 mul} def
+/pagedimen { 
+	paperheight sub abs 16 lt exch 
+	paperwidth sub abs 16 lt and
+	{/papername exch def} {pop} ifelse
+	} bind def
+	/papersizedict FMLOCAL
+/setpapername { 
+	/papersizedict 14 dict def 
+	papersizedict begin
+	/papername /unknown def 
+		/Letter 8.5 inch 11.0 inch pagedimen
+		/LetterSmall 7.68 inch 10.16 inch pagedimen
+		/Tabloid 11.0 inch 17.0 inch pagedimen
+		/Ledger 17.0 inch 11.0 inch pagedimen
+		/Legal 8.5 inch 14.0 inch pagedimen
+		/Statement 5.5 inch 8.5 inch pagedimen
+		/Executive 7.5 inch 10.0 inch pagedimen
+		/A3 11.69 inch 16.5 inch pagedimen
+		/A4 8.26 inch 11.69 inch pagedimen
+		/A4Small 7.47 inch 10.85 inch pagedimen
+		/B4 10.125 inch 14.33 inch pagedimen
+		/B5 7.16 inch 10.125 inch pagedimen
+	end
+	} bind def
+/papersize {
+	papersizedict begin
+		/Letter {lettertray letter} def
+		/LetterSmall {lettertray lettersmall} def
+		/Tabloid {11x17tray 11x17} def
+		/Ledger {ledgertray ledger} def
+		/Legal {legaltray legal} def
+		/Statement {statementtray statement} def
+		/Executive {executivetray executive} def
+		/A3 {a3tray a3} def
+		/A4 {a4tray a4} def
+		/A4Small {a4tray a4small} def
+		/B4 {b4tray b4} def
+		/B5 {b5tray b5} def
+		/unknown {unknown} def
+	papersizedict dup papername known {papername} {/unknown} ifelse get
+	end
+	statusdict begin stopped end 
+	} bind def
+/manualpapersize {
+	papersizedict begin
+		/Letter {letter} def
+		/LetterSmall {lettersmall} def
+		/Tabloid {11x17} def
+		/Ledger {ledger} def
+		/Legal {legal} def
+		/Statement {statement} def
+		/Executive {executive} def
+		/A3 {a3} def
+		/A4 {a4} def
+		/A4Small {a4small} def
+		/B4 {b4} def
+		/B5 {b5} def
+		/unknown {unknown} def
+	papersizedict dup papername known {papername} {/unknown} ifelse get
+	end
+	stopped 
+	} bind def
+/desperatepapersize {
+	statusdict /setpageparams known
+		{
+		paperwidth paperheight 0 1 
+		statusdict begin
+		{setpageparams} stopped 
+		end
+		} {true} ifelse 
+	} bind def
+/DiacriticEncoding [
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /space /exclam /quotedbl
+/numbersign /dollar /percent /ampersand /quotesingle /parenleft
+/parenright /asterisk /plus /comma /hyphen /period /slash /zero /one
+/two /three /four /five /six /seven /eight /nine /colon /semicolon
+/less /equal /greater /question /at /A /B /C /D /E /F /G /H /I /J /K
+/L /M /N /O /P /Q /R /S /T /U /V /W /X /Y /Z /bracketleft /backslash
+/bracketright /asciicircum /underscore /grave /a /b /c /d /e /f /g /h
+/i /j /k /l /m /n /o /p /q /r /s /t /u /v /w /x /y /z /braceleft /bar
+/braceright /asciitilde /.notdef /Adieresis /Aring /Ccedilla /Eacute
+/Ntilde /Odieresis /Udieresis /aacute /agrave /acircumflex /adieresis
+/atilde /aring /ccedilla /eacute /egrave /ecircumflex /edieresis
+/iacute /igrave /icircumflex /idieresis /ntilde /oacute /ograve
+/ocircumflex /odieresis /otilde /uacute /ugrave /ucircumflex
+/udieresis /dagger /.notdef /cent /sterling /section /bullet
+/paragraph /germandbls /registered /copyright /trademark /acute
+/dieresis /.notdef /AE /Oslash /.notdef /.notdef /.notdef /.notdef
+/yen /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/ordfeminine /ordmasculine /.notdef /ae /oslash /questiondown
+/exclamdown /logicalnot /.notdef /florin /.notdef /.notdef
+/guillemotleft /guillemotright /ellipsis /.notdef /Agrave /Atilde
+/Otilde /OE /oe /endash /emdash /quotedblleft /quotedblright
+/quoteleft /quoteright /.notdef /.notdef /ydieresis /Ydieresis
+/fraction /currency /guilsinglleft /guilsinglright /fi /fl /daggerdbl
+/periodcentered /quotesinglbase /quotedblbase /perthousand
+/Acircumflex /Ecircumflex /Aacute /Edieresis /Egrave /Iacute
+/Icircumflex /Idieresis /Igrave /Oacute /Ocircumflex /.notdef /Ograve
+/Uacute /Ucircumflex /Ugrave /dotlessi /circumflex /tilde /macron
+/breve /dotaccent /ring /cedilla /hungarumlaut /ogonek /caron
+] def
+/ReEncode { 
+	dup 
+	length 
+	dict begin 
+	{
+	1 index /FID ne 
+		{def} 
+		{pop pop} ifelse 
+	} forall 
+	0 eq {/Encoding DiacriticEncoding def} if 
+	currentdict 
+	end 
+	} bind def
+FMPColor 
+	
+	{
+	/BEGINBITMAPCOLOR { 
+		BITMAPCOLOR} def
+	/BEGINBITMAPCOLORc { 
+		BITMAPCOLORc} def
+	/BEGINBITMAPTRUECOLOR { 
+		BITMAPTRUECOLOR } def
+	/BEGINBITMAPTRUECOLORc { 
+		BITMAPTRUECOLORc } def
+	}
+	
+	{
+	/BEGINBITMAPCOLOR { 
+		BITMAPGRAY} def
+	/BEGINBITMAPCOLORc { 
+		BITMAPGRAYc} def
+	/BEGINBITMAPTRUECOLOR { 
+		BITMAPTRUEGRAY } def
+	/BEGINBITMAPTRUECOLORc { 
+		BITMAPTRUEGRAYc } def
+	}
+ifelse
+/K { 
+	FMPrintAllColorsAsBlack {
+		dup 1 eq 2 index 1 eq and 3 index 1 eq and not
+			{7 {pop} repeat 0 0 0 1 0 0 0} if
+	} if 
+	FrameCurColors astore 
+	pop combineColor
+} bind def
+/graymode true def
+	/bwidth FMLOCAL
+	/bpside FMLOCAL
+	/bstring FMLOCAL
+	/onbits FMLOCAL
+	/offbits FMLOCAL
+	/xindex FMLOCAL
+	/yindex FMLOCAL
+	/x FMLOCAL
+	/y FMLOCAL
+/setPatternMode {
+	FMLevel1 {
+		/bwidth  exch def
+		/bpside  exch def
+		/bstring exch def
+		/onbits 0 def  /offbits 0 def
+		freq sangle landscape {90 add} if 
+			{/y exch def
+			 /x exch def
+			 /xindex x 1 add 2 div bpside mul cvi def
+			 /yindex y 1 add 2 div bpside mul cvi def
+			 bstring yindex bwidth mul xindex 8 idiv add get
+			 1 7 xindex 8 mod sub bitshift and 0 ne FrameNegative {not} if
+			 {/onbits  onbits  1 add def 1}
+			 {/offbits offbits 1 add def 0}
+			 ifelse
+			}
+			setscreen
+		offbits offbits onbits add div FrameNegative {1.0 exch sub} if
+		/FrameCurGray exch def
+	} { 
+		pop pop
+		dup patCache exch known {
+			patCache exch get
+		} { 
+			dup
+			patDict /bstring 3 -1 roll put
+			patDict 
+			9 PatFreq screenIndex get div dup matrix scale
+			makepattern
+			dup 
+			patCache 4 -1 roll 3 -1 roll put
+		} ifelse
+		/FrameCurGray 0 def
+		/FrameCurPat exch def
+	} ifelse
+	/graymode false def
+	combineColor
+} bind def
+/setGrayScaleMode {
+	graymode not {
+		/graymode true def
+		FMLevel1 {
+			setCurrentScreen
+		} if
+	} if
+	/FrameCurGray exch def
+	combineColor
+} bind def
+/normalize {
+	transform round exch round exch itransform
+	} bind def
+/dnormalize {
+	dtransform round exch round exch idtransform
+	} bind def
+/lnormalize { 
+	0 dtransform exch cvi 2 idiv 2 mul 1 add exch idtransform pop
+	} bind def
+/H { 
+	lnormalize setlinewidth
+	} bind def
+/Z {
+	setlinecap
+	} bind def
+	
+/PFill {
+	graymode FMLevel1 or not {
+		gsave 1 setgray eofill grestore
+	} if
+} bind def
+/PStroke {
+	graymode FMLevel1 or not {
+		gsave 1 setgray stroke grestore
+	} if
+	stroke
+} bind def
+	/fillvals FMLOCAL
+/X { 
+	fillvals exch get
+	dup type /stringtype eq
+	{8 1 setPatternMode} 
+	{setGrayScaleMode}
+	ifelse
+	} bind def
+/V { 
+	PFill gsave eofill grestore
+	} bind def
+/Vclip {
+	clip
+	} bind def
+/Vstrk {
+	currentlinewidth exch setlinewidth PStroke setlinewidth
+	} bind def
+/N { 
+	PStroke
+	} bind def
+/Nclip {
+	strokepath clip newpath
+	} bind def
+/Nstrk {
+	currentlinewidth exch setlinewidth PStroke setlinewidth
+	} bind def
+/M {newpath moveto} bind def
+/E {lineto} bind def
+/D {curveto} bind def
+/O {closepath} bind def
+	/n FMLOCAL
+/L { 
+ 	/n exch def
+	newpath
+	normalize
+	moveto 
+	2 1 n {pop normalize lineto} for
+	} bind def
+/Y { 
+	L 
+	closepath
+	} bind def
+	/x1 FMLOCAL
+	/x2 FMLOCAL
+	/y1 FMLOCAL
+	/y2 FMLOCAL
+/R { 
+	/y2 exch def
+	/x2 exch def
+	/y1 exch def
+	/x1 exch def
+	x1 y1
+	x2 y1
+	x2 y2
+	x1 y2
+	4 Y 
+	} bind def
+	/rad FMLOCAL
+/rarc 
+	{rad 
+	 arcto
+	} bind def
+/RR { 
+	/rad exch def
+	normalize
+	/y2 exch def
+	/x2 exch def
+	normalize
+	/y1 exch def
+	/x1 exch def
+	mark
+	newpath
+	{
+	x1 y1 rad add moveto
+	x1 y2 x2 y2 rarc
+	x2 y2 x2 y1 rarc
+	x2 y1 x1 y1 rarc
+	x1 y1 x1 y2 rarc
+	closepath
+	} stopped {x1 y1 x2 y2 R} if 
+	cleartomark
+	} bind def
+/RRR { 
+	/rad exch def
+	normalize /y4 exch def /x4 exch def
+	normalize /y3 exch def /x3 exch def
+	normalize /y2 exch def /x2 exch def
+	normalize /y1 exch def /x1 exch def
+	newpath
+	normalize moveto 
+	mark
+	{
+	x2 y2 x3 y3 rarc
+	x3 y3 x4 y4 rarc
+	x4 y4 x1 y1 rarc
+	x1 y1 x2 y2 rarc
+	closepath
+	} stopped
+	 {x1 y1 x2 y2 x3 y3 x4 y4 newpath moveto lineto lineto lineto closepath} if
+	cleartomark
+	} bind def
+/C { 
+	grestore
+	gsave
+	R 
+	clip
+	setCurrentScreen
+} bind def
+/CP { 
+	grestore
+	gsave
+	Y 
+	clip
+	setCurrentScreen
+} bind def
+	/FMpointsize FMLOCAL
+/F { 
+	FMfonts exch get
+	FMpointsize scalefont
+	setfont
+	} bind def
+/Q { 
+	/FMpointsize exch def
+	F 
+	} bind def
+/T { 
+	moveto show
+	} bind def
+/RF { 
+	rotate
+	0 ne {-1 1 scale} if
+	} bind def
+/TF { 
+	gsave
+	moveto 
+	RF
+	show
+	grestore
+	} bind def
+/P { 
+	moveto
+	0 32 3 2 roll widthshow
+	} bind def
+/PF { 
+	gsave
+	moveto 
+	RF
+	0 32 3 2 roll widthshow
+	grestore
+	} bind def
+/S { 
+	moveto
+	0 exch ashow
+	} bind def
+/SF { 
+	gsave
+	moveto
+	RF
+	0 exch ashow
+	grestore
+	} bind def
+/B { 
+	moveto
+	0 32 4 2 roll 0 exch awidthshow
+	} bind def
+/BF { 
+	gsave
+	moveto
+	RF
+	0 32 4 2 roll 0 exch awidthshow
+	grestore
+	} bind def
+/G { 
+	gsave
+	newpath
+	normalize translate 0.0 0.0 moveto 
+	dnormalize scale 
+	0.0 0.0 1.0 5 3 roll arc 
+	closepath 
+	PFill fill
+	grestore
+	} bind def
+/Gstrk {
+	savematrix
+    newpath
+    2 index 2 div add exch 3 index 2 div sub exch 
+    normalize 2 index 2 div sub exch 3 index 2 div add exch 
+    translate
+    scale 
+    0.0 0.0 1.0 5 3 roll arc 
+    restorematrix
+    currentlinewidth exch setlinewidth PStroke setlinewidth
+    } bind def
+/Gclip { 
+	newpath
+	savematrix
+	normalize translate 0.0 0.0 moveto 
+	dnormalize scale 
+	0.0 0.0 1.0 5 3 roll arc 
+	closepath 
+	clip newpath
+	restorematrix
+	} bind def
+/GG { 
+	gsave
+	newpath
+	normalize translate 0.0 0.0 moveto 
+	rotate 
+	dnormalize scale 
+	0.0 0.0 1.0 5 3 roll arc 
+	closepath
+	PFill
+	fill
+	grestore
+	} bind def
+/GGclip { 
+	savematrix
+	newpath
+    normalize translate 0.0 0.0 moveto 
+    rotate 
+    dnormalize scale 
+    0.0 0.0 1.0 5 3 roll arc 
+    closepath
+	clip newpath
+	restorematrix
+	} bind def
+/GGstrk { 
+	savematrix
+    newpath
+    normalize translate 0.0 0.0 moveto 
+    rotate 
+    dnormalize scale 
+    0.0 0.0 1.0 5 3 roll arc 
+    closepath 
+	restorematrix
+    currentlinewidth exch setlinewidth PStroke setlinewidth
+	} bind def
+/A { 
+	gsave
+	savematrix
+	newpath
+	2 index 2 div add exch 3 index 2 div sub exch 
+	normalize 2 index 2 div sub exch 3 index 2 div add exch 
+	translate 
+	scale 
+	0.0 0.0 1.0 5 3 roll arc 
+	restorematrix
+	PStroke
+	grestore
+	} bind def
+/Aclip {
+	newpath
+	savematrix
+	normalize translate 0.0 0.0 moveto 
+	dnormalize scale 
+	0.0 0.0 1.0 5 3 roll arc 
+	closepath 
+	strokepath clip newpath
+	restorematrix
+} bind def
+/Astrk {
+	Gstrk
+} bind def
+/AA { 
+	gsave
+	savematrix
+	newpath
+	
+	3 index 2 div add exch 4 index 2 div sub exch 
+	
+	normalize 3 index 2 div sub exch 4 index 2 div add exch
+	translate 
+	rotate 
+	scale 
+	0.0 0.0 1.0 5 3 roll arc 
+	restorematrix
+	PStroke
+	grestore
+	} bind def
+/AAclip {
+	savematrix
+	newpath
+    normalize translate 0.0 0.0 moveto 
+    rotate 
+    dnormalize scale 
+    0.0 0.0 1.0 5 3 roll arc 
+    closepath
+	strokepath clip newpath
+	restorematrix
+} bind def
+/AAstrk {
+	GGstrk
+} bind def
+	/x FMLOCAL
+	/y FMLOCAL
+	/w FMLOCAL
+	/h FMLOCAL
+	/xx FMLOCAL
+	/yy FMLOCAL
+	/ww FMLOCAL
+	/hh FMLOCAL
+	/FMsaveobject FMLOCAL
+	/FMoptop FMLOCAL
+	/FMdicttop FMLOCAL
+/BEGINPRINTCODE { 
+	/FMdicttop countdictstack 1 add def 
+	/FMoptop count 7 sub def 
+	/FMsaveobject save def
+	userdict begin 
+	/showpage {} def 
+	FMNORMALIZEGRAPHICS 
+	3 index neg 3 index neg translate
+	} bind def
+/ENDPRINTCODE {
+	count -1 FMoptop {pop pop} for 
+	countdictstack -1 FMdicttop {pop end} for 
+	FMsaveobject restore 
+	} bind def
+/gn { 
+	0 
+	{	46 mul 
+		cf read pop 
+		32 sub 
+		dup 46 lt {exit} if 
+		46 sub add 
+		} loop
+	add 
+	} bind def
+	/str FMLOCAL
+/cfs { 
+	/str sl string def 
+	0 1 sl 1 sub {str exch val put} for 
+	str def 
+	} bind def
+/ic [ 
+	0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0223
+	0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0223
+	0
+	{0 hx} {1 hx} {2 hx} {3 hx} {4 hx} {5 hx} {6 hx} {7 hx} {8 hx} {9 hx}
+	{10 hx} {11 hx} {12 hx} {13 hx} {14 hx} {15 hx} {16 hx} {17 hx} {18 hx}
+	{19 hx} {gn hx} {0} {1} {2} {3} {4} {5} {6} {7} {8} {9} {10} {11} {12}
+	{13} {14} {15} {16} {17} {18} {19} {gn} {0 wh} {1 wh} {2 wh} {3 wh}
+	{4 wh} {5 wh} {6 wh} {7 wh} {8 wh} {9 wh} {10 wh} {11 wh} {12 wh}
+	{13 wh} {14 wh} {gn wh} {0 bl} {1 bl} {2 bl} {3 bl} {4 bl} {5 bl} {6 bl}
+	{7 bl} {8 bl} {9 bl} {10 bl} {11 bl} {12 bl} {13 bl} {14 bl} {gn bl}
+	{0 fl} {1 fl} {2 fl} {3 fl} {4 fl} {5 fl} {6 fl} {7 fl} {8 fl} {9 fl}
+	{10 fl} {11 fl} {12 fl} {13 fl} {14 fl} {gn fl}
+	] def
+	/sl FMLOCAL
+	/val FMLOCAL
+	/ws FMLOCAL
+	/im FMLOCAL
+	/bs FMLOCAL
+	/cs FMLOCAL
+	/len FMLOCAL
+	/pos FMLOCAL
+/ms { 
+	/sl exch def 
+	/val 255 def 
+	/ws cfs 
+	/im cfs 
+	/val 0 def 
+	/bs cfs 
+	/cs cfs 
+	} bind def
+400 ms 
+/ip { 
+	is 
+	0 
+	cf cs readline pop 
+	{	ic exch get exec 
+		add 
+		} forall 
+	pop 
+	
+	} bind def
+/rip { 
+	   
+	  
+	  bis ris copy pop 
+      is
+      0
+      cf cs readline pop 
+      {       ic exch get exec 
+              add 
+              } forall 
+	  pop pop 
+	  ris gis copy pop 
+	  dup is exch 
+	  
+      cf cs readline pop 
+      {       ic exch get exec 
+              add 
+              } forall 
+	  pop pop
+	  gis bis copy pop 
+	  dup add is exch 
+	  
+      cf cs readline pop 
+      {       ic exch get exec 
+              add 
+              } forall 
+      pop 
+      
+      } bind def
+/wh { 
+	/len exch def 
+	/pos exch def 
+	ws 0 len getinterval im pos len getinterval copy pop
+	pos len 
+	} bind def
+/bl { 
+	/len exch def 
+	/pos exch def 
+	bs 0 len getinterval im pos len getinterval copy pop
+	pos len 
+	} bind def
+/s1 1 string def
+/fl { 
+	/len exch def 
+	/pos exch def 
+	/val cf s1 readhexstring pop 0 get def
+	pos 1 pos len add 1 sub {im exch val put} for
+	pos len 
+	} bind def
+/hx { 
+	3 copy getinterval 
+	cf exch readhexstring pop pop 
+	} bind def
+	/h FMLOCAL
+	/w FMLOCAL
+	/d FMLOCAL
+	/lb FMLOCAL
+	/bitmapsave FMLOCAL
+	/is FMLOCAL
+	/cf FMLOCAL
+/wbytes { 
+      dup dup
+      24 eq { pop pop 3 mul }
+      { 8 eq {pop} {1 eq {7 add 8 idiv} {3 add 4 idiv} ifelse} ifelse } ifelse
+	} bind def
+/BEGINBITMAPBWc { 
+	1 {} COMMONBITMAPc
+	} bind def
+/BEGINBITMAPGRAYc { 
+	8 {} COMMONBITMAPc
+	} bind def
+/BEGINBITMAP2BITc { 
+	2 {} COMMONBITMAPc
+	} bind def
+/COMMONBITMAPc { 
+		 
+	/r exch def
+	/d exch def
+	gsave
+	
+	3 index 2 div add exch	
+	4 index 2 div add exch	
+	translate		
+	rotate			
+	1 index 2 div neg	
+	1 index 2 div neg	
+	translate		
+	scale			
+	/h exch def /w exch def
+	/lb w d wbytes def 
+	sl lb lt {lb ms} if 
+	/bitmapsave save def 
+	r                    
+	/is im 0 lb getinterval def 
+	ws 0 lb getinterval is copy pop 
+	/cf currentfile def 
+	w h d [w 0 0 h neg 0 h] 
+	{ip} image 
+	bitmapsave restore 
+	grestore
+	} bind def
+/BEGINBITMAPBW { 
+	1 {} COMMONBITMAP
+	} bind def
+/BEGINBITMAPGRAY { 
+	8 {} COMMONBITMAP
+	} bind def
+/BEGINBITMAP2BIT { 
+	2 {} COMMONBITMAP
+	} bind def
+/COMMONBITMAP { 
+	/r exch def
+	/d exch def
+	gsave
+	
+	3 index 2 div add exch	
+	4 index 2 div add exch	
+	translate		
+	rotate			
+	1 index 2 div neg	
+	1 index 2 div neg	
+	translate		
+	scale			
+	/h exch def /w exch def
+	/bitmapsave save def 
+	r                    
+	/is w d wbytes string def
+	/cf currentfile def 
+	w h d [w 0 0 h neg 0 h] 
+	{cf is readhexstring pop} image
+	bitmapsave restore 
+	grestore
+	} bind def
+/ngrayt 256 array def
+/nredt 256 array def
+/nbluet 256 array def
+/ngreent 256 array def
+	/gryt FMLOCAL
+	/blut FMLOCAL
+	/grnt FMLOCAL
+	/redt FMLOCAL
+	/indx FMLOCAL
+	/cynu FMLOCAL
+	/magu FMLOCAL
+	/yelu FMLOCAL
+	/k FMLOCAL
+	/u FMLOCAL
+FMLevel1 {
+/colorsetup {
+	currentcolortransfer
+	/gryt exch def
+	/blut exch def
+	/grnt exch def
+	/redt exch def
+	0 1 255 {
+		/indx exch def
+		/cynu 1 red indx get 255 div sub def
+		/magu 1 green indx get 255 div sub def
+		/yelu 1 blue indx get 255 div sub def
+		/k cynu magu min yelu min def
+		/u k currentundercolorremoval exec def
+%		/u 0 def
+		nredt indx 1 0 cynu u sub max sub redt exec put
+		ngreent indx 1 0 magu u sub max sub grnt exec put
+		nbluet indx 1 0 yelu u sub max sub blut exec put
+		ngrayt indx 1 k currentblackgeneration exec sub gryt exec put
+	} for
+	{255 mul cvi nredt exch get}
+	{255 mul cvi ngreent exch get}
+	{255 mul cvi nbluet exch get}
+	{255 mul cvi ngrayt exch get}
+	setcolortransfer
+	{pop 0} setundercolorremoval
+	{} setblackgeneration
+	} bind def
+}
+{
+/colorSetup2 {
+	[ /Indexed /DeviceRGB 255 
+		{dup red exch get 255 div 
+		 exch dup green exch get 255 div 
+		 exch blue exch get 255 div}
+	] setcolorspace
+} bind def
+} ifelse
+	/tran FMLOCAL
+/fakecolorsetup {
+	/tran 256 string def
+	0 1 255 {/indx exch def 
+		tran indx
+		red indx get 77 mul
+		green indx get 151 mul
+		blue indx get 28 mul
+		add add 256 idiv put} for
+	currenttransfer
+	{255 mul cvi tran exch get 255.0 div}
+	exch concatprocs settransfer
+} bind def
+/BITMAPCOLOR { 
+	/d 8 def
+	gsave
+	
+	3 index 2 div add exch	
+	4 index 2 div add exch	
+	translate		
+	rotate			
+	1 index 2 div neg	
+	1 index 2 div neg	
+	translate		
+	scale			
+	/h exch def /w exch def
+	/bitmapsave save def
+	FMLevel1 {	
+		colorsetup
+		/is w d wbytes string def
+		/cf currentfile def 
+		w h d [w 0 0 h neg 0 h] 
+		{cf is readhexstring pop} {is} {is} true 3 colorimage 
+	} {
+		colorSetup2
+		/is w d wbytes string def
+		/cf currentfile def 
+		7 dict dup begin
+			/ImageType 1 def
+			/Width w def
+			/Height h def
+			/ImageMatrix [w 0 0 h neg 0 h] def
+			/DataSource {cf is readhexstring pop} bind def
+			/BitsPerComponent d def
+			/Decode [0 255] def
+		end image	
+	} ifelse
+	bitmapsave restore 
+	grestore
+	} bind def
+/BITMAPCOLORc { 
+	/d 8 def
+	gsave
+	
+	3 index 2 div add exch	
+	4 index 2 div add exch	
+	translate		
+	rotate			
+	1 index 2 div neg	
+	1 index 2 div neg	
+	translate		
+	scale			
+	/h exch def /w exch def
+	/lb w d wbytes def 
+	sl lb lt {lb ms} if 
+	/bitmapsave save def 
+	FMLevel1 {	
+		colorsetup
+		/is im 0 lb getinterval def 
+		ws 0 lb getinterval is copy pop 
+		/cf currentfile def 
+		w h d [w 0 0 h neg 0 h] 
+		{ip} {is} {is} true 3 colorimage
+	} {
+		colorSetup2
+		/is im 0 lb getinterval def 
+		ws 0 lb getinterval is copy pop 
+		/cf currentfile def 
+		7 dict dup begin
+			/ImageType 1 def
+			/Width w def
+			/Height h def
+			/ImageMatrix [w 0 0 h neg 0 h] def
+			/DataSource {ip} bind def
+			/BitsPerComponent d def
+			/Decode [0 255] def
+		end image	
+	} ifelse
+	bitmapsave restore 
+	grestore
+	} bind def
+/BITMAPTRUECOLORc { 
+	/d 24 def
+        gsave
+ 	
+	3 index 2 div add exch	
+	4 index 2 div add exch	
+	translate		
+	rotate			
+	1 index 2 div neg	
+	1 index 2 div neg	
+	translate		
+	scale			
+	/h exch def /w exch def
+	/lb w d wbytes def 
+	sl lb lt {lb ms} if 
+        /bitmapsave save def 
+        
+	/is im 0 lb getinterval def	
+	/ris im 0 w getinterval def	
+	/gis im w w getinterval def	
+	/bis im w 2 mul w getinterval def 
+        
+        ws 0 lb getinterval is copy pop 
+        /cf currentfile def 
+        w h 8 [w 0 0 h neg 0 h] 
+        {w rip pop ris} {gis} {bis} true 3 colorimage
+        bitmapsave restore 
+        grestore
+        } bind def
+/BITMAPTRUECOLOR { 
+        gsave
+		
+		3 index 2 div add exch	
+		4 index 2 div add exch	
+		translate		
+		rotate			
+		1 index 2 div neg	
+		1 index 2 div neg	
+		translate		
+		scale			
+		/h exch def /w exch def
+        /bitmapsave save def 
+        /is w string def
+        /gis w string def
+        /bis w string def
+        /cf currentfile def 
+        w h 8 [w 0 0 h neg 0 h] 
+        { cf is readhexstring pop } 
+        { cf gis readhexstring pop } 
+        { cf bis readhexstring pop } 
+        true 3 colorimage 
+        bitmapsave restore 
+        grestore
+        } bind def
+/BITMAPTRUEGRAYc { 
+	/d 24 def
+        gsave
+	
+	3 index 2 div add exch	
+	4 index 2 div add exch	
+	translate		
+	rotate			
+	1 index 2 div neg	
+	1 index 2 div neg	
+	translate		
+	scale			
+	/h exch def /w exch def
+	/lb w d wbytes def 
+	sl lb lt {lb ms} if 
+        /bitmapsave save def 
+        
+	/is im 0 lb getinterval def	
+	/ris im 0 w getinterval def	
+	/gis im w w getinterval def	
+	/bis im w 2 mul w getinterval def 
+        ws 0 lb getinterval is copy pop 
+        /cf currentfile def 
+        w h 8 [w 0 0 h neg 0 h] 
+        {w rip pop ris gis bis w gray} image
+        bitmapsave restore 
+        grestore
+        } bind def
+/ww FMLOCAL
+/r FMLOCAL
+/g FMLOCAL
+/b FMLOCAL
+/i FMLOCAL
+/gray { 
+        /ww exch def
+        /b exch def
+        /g exch def
+        /r exch def
+        0 1 ww 1 sub { /i exch def r i get .299 mul g i get .587 mul
+			b i get .114 mul add add r i 3 -1 roll floor cvi put } for
+        r
+        } bind def
+/BITMAPTRUEGRAY { 
+        gsave
+		
+		3 index 2 div add exch	
+		4 index 2 div add exch	
+		translate		
+		rotate			
+		1 index 2 div neg	
+		1 index 2 div neg	
+		translate		
+		scale			
+		/h exch def /w exch def
+        /bitmapsave save def 
+        /is w string def
+        /gis w string def
+        /bis w string def
+        /cf currentfile def 
+        w h 8 [w 0 0 h neg 0 h] 
+        { cf is readhexstring pop 
+          cf gis readhexstring pop 
+          cf bis readhexstring pop w gray}  image
+        bitmapsave restore 
+        grestore
+        } bind def
+/BITMAPGRAY { 
+	8 {fakecolorsetup} COMMONBITMAP
+	} bind def
+/BITMAPGRAYc { 
+	8 {fakecolorsetup} COMMONBITMAPc
+	} bind def
+/ENDBITMAP {
+	} bind def
+end 
+	/ALDsave FMLOCAL
+	/ALDmatrix matrix def ALDmatrix currentmatrix pop
+/StartALD {
+	/ALDsave save def
+	 savematrix
+	 ALDmatrix setmatrix
+	} bind def
+/InALD {
+	 restorematrix
+	} bind def
+/DoneALD {
+	 ALDsave restore
+	} bind def
+/I { setdash } bind def
+/J { [] 0 setdash } bind def
+%%EndProlog
+%%BeginSetup
+(4.0) FMVERSION
+1 1 0 0 612 792 0 1 11 FMDOCUMENT
+0 0 /Times-Bold FMFONTDEFINE
+1 0 /Times-Italic FMFONTDEFINE
+2 0 /Times-Roman FMFONTDEFINE
+3 0 /Courier-Bold FMFONTDEFINE
+4 0 /Helvetica-Bold FMFONTDEFINE
+32 FMFILLS
+0 0 FMFILL
+1 0.1 FMFILL
+2 0.3 FMFILL
+3 0.5 FMFILL
+4 0.7 FMFILL
+5 0.9 FMFILL
+6 0.97 FMFILL
+7 1 FMFILL
+8 <0f1e3c78f0e1c387> FMFILL
+9 <0f87c3e1f0783c1e> FMFILL
+10 <cccccccccccccccc> FMFILL
+11 <ffff0000ffff0000> FMFILL
+12 <8142241818244281> FMFILL
+13 <03060c183060c081> FMFILL
+14 <8040201008040201> FMFILL
+16 1 FMFILL
+17 0.9 FMFILL
+18 0.7 FMFILL
+19 0.5 FMFILL
+20 0.3 FMFILL
+21 0.1 FMFILL
+22 0.03 FMFILL
+23 0 FMFILL
+24 <f0e1c3870f1e3c78> FMFILL
+25 <f0783c1e0f87c3e1> FMFILL
+26 <3333333333333333> FMFILL
+27 <0000ffff0000ffff> FMFILL
+28 <7ebddbe7e7dbbd7e> FMFILL
+29 <fcf9f3e7cf9f3f7e> FMFILL
+30 <7fbfdfeff7fbfdfe> FMFILL
+%%EndSetup
+%%Page: "1" 1
+%%BeginPaperSize: Letter
+%%EndPaperSize
+612 792 0 FMBEGINPAGE
+[0 0 0 1 0 0 0]
+[ 0 1 1 0 1 0 0]
+[ 1 0 1 0 0 1 0]
+[ 1 1 0 0 0 0 1]
+[ 1 0 0 0 0 1 1]
+[ 0 1 0 0 1 0 1]
+[ 0 0 1 0 1 1 0]
+ 7 FrameSetSepColors
+FrameNoSep
+0 0 0 1 0 0 0 K
+J
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 11 Q
+0 X
+0 0 0 1 0 0 0 K
+(Abstract) 156.54 538.67 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1 10 Q
+0.46 (Four per) 72 520.33 P
+0.46 (-session guarantees ar) 108.09 520.33 P
+0.46 (e pr) 199.19 520.33 P
+0.46 (oposed to aid users) 215.12 520.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2.95 (and applications of weakly consistent r) 60 508.33 P
+2.95 (eplicated data:) 230.78 508.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.25 (Read Y) 60 496.33 P
+-0.25 (our W) 87.44 496.33 P
+-0.25 (rites, Monotonic Reads, W) 111.36 496.33 P
+-0.25 (rites Follow Reads,) 216.44 496.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.72 (and Monotonic W) 60 484.33 P
+0.72 (rites. The intent is to pr) 132.55 484.33 P
+0.72 (esent individual) 229.67 484.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.35 (applications with a view of the database that is consistent) 60 472.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.22 (with their own actions, even if they r) 60 460.33 P
+1.22 (ead and write fr) 214.31 460.33 P
+1.22 (om) 281.78 460.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.52 (various, potentially inconsistent servers. The guarantees) 60 448.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.18 (can be layer) 60 436.33 P
+-0.18 (ed on existing systems that employ a r) 108.7 436.33 P
+-0.18 (ead-any/) 259.01 436.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.14 (write-any r) 60 424.33 P
+0.14 (eplication scheme while r) 104.49 424.33 P
+0.14 (etaining the principal) 207.04 424.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.17 (bene\336ts of such a scheme, namely high-availability) 60 412.33 P
+1.17 (, sim-) 270.61 412.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2.06 (plicity) 60 400.33 P
+2.06 (, scalability) 84.45 400.33 P
+2.06 (, and support for disconnected opera-) 132.62 400.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+3.17 (tion. These session guarantees wer) 60 388.33 P
+3.17 (e developed in the) 212.02 388.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.88 (context of the Bayou pr) 60 376.33 P
+0.88 (oject at Xer) 156.48 376.33 P
+0.88 (ox P) 204.54 376.33 P
+0.88 (ARC in which we) 222.18 376.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.52 (ar) 60 364.33 P
+0.52 (e designing and building a r) 68.52 364.33 P
+0.52 (eplicated storage system to) 183.83 364.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.54 (support the needs of mobile computing users who may be) 60 352.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(only intermittently connected.) 60 340.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 12 Q
+(1.  Intr) 60 303 T
+(oduction) 95.45 303 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2 10 Q
+0.94 (T) 72 278.33 P
+0.94 (echniques for managing weakly consistent replicated) 77.41 278.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+5.02 (data have been employed in a variety of systems) 60 266.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.49 ([4,10,12,17,19,20]. Such systems are characterized by the) 60 254.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.19 (lazy propagation of updates between servers and the possi-) 60 242.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.2 (bility for clients to see inconsistent values when reading) 60 230.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.23 (data from dif) 60 218.33 P
+-0.23 (ferent replicas. W) 111.56 218.33 P
+-0.23 (eakly consistent systems are) 181.66 218.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.01 (popular due to their high-availability) 60 206.33 P
+0.01 (, good scalability) 206.58 206.33 P
+0.01 (, and) 274.55 206.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.02 (simplicity of design. These advantages arise from the abil-) 60 194.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.24 (ity to allow reads and writes to be performed with little or) 60 182.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.04 (no synchronization among replicas. For example, Grape-) 60 170.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2.62 (vine [4], the \336rst widely used computing system with) 60 158.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.9 (weak consistency) 60 146.33 P
+1.9 (, used a) 131.51 146.33 P
+1 F
+1.9 (r) 169.99 146.33 P
+1.9 (ead-any/write-any) 173.51 146.33 P
+2 F
+1.9 ( replication) 246.83 146.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.94 (scheme, in which clients could read from any server and) 60 134.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(could write to any server) 60 122.33 T
+(.) 158.87 122.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.94 (More recently) 72 110.33 P
+0.94 (, the use of weakly consistent replicated) 128.66 110.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.47 (data has been driven by the needs of mobile computing) 60 98.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.27 (applications [1) 60 86.33 P
+1.27 (1,13,22]. For example, disconnected users) 120.06 86.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.29 (may want to read and update data copied onto their porta-) 318 539.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.29 (ble computers even if they did not have the foresight to) 318 527.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.48 (lock it before either a voluntary or an involuntary discon-) 318 515.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.37 (nection occurred. Also, the presence of slow or expensive) 318 503.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.02 (communications links in the system can make maintaining) 318 491.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.07 (closely synchronized copies of data dif) 318 479.33 P
+-0.07 (\336cult or uneconom-) 473.26 479.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(ical.) 318 467.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2.07 (Unfortunately) 330 455.33 P
+2.07 (, the lack of guarantees concerning the) 385.45 455.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.16 (ordering of read and write operations in weakly consistent) 318 443.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.26 (systems can confuse users and applications, as reported in) 318 431.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.1 (experiences with Grapevine [21]. A user may read some) 318 419.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.23 (value for a data item and then later read an older value.) 318 407.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2.12 (Similarly) 318 395.33 P
+2.12 (, a user may update some data item based on) 354.58 395.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.93 (reading some other data, while others read the updated) 318 383.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.62 (item without seeing the data on which it is based. A seri-) 318 371.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.15 (ous problem with weakly consistent systems is that incon-) 318 359.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2.33 (sistencies can appear even when only a single user or) 318 347.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.01 (application is making data modi\336cations. For example, a) 318 335.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.5 (mobile client of a distributed database system could issue) 318 323.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.92 (a write at one server) 318 311.33 P
+0.92 (, and later issue a read at a dif) 402.36 311.33 P
+0.92 (ferent) 528.68 311.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.12 (server) 318 299.33 P
+0.12 (. The client would see inconsistent results unless the) 341.88 299.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.62 (two servers had synchronized with one another sometime) 318 287.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(between the two operations.) 318 275.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.08 (In this paper) 330 263.33 P
+-0.08 (, we introduce) 379.43 263.33 P
+1 F
+-0.08 (session guarantees) 438.63 263.33 P
+2 F
+-0.08 ( that alle-) 514.39 263.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2.6 (viate this problem of weakly consistent systems while) 318 251.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2.31 (maintaining the principle advantages of read-any/write-) 318 239.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+4.29 (any replication. A) 318 227.33 P
+1 F
+4.29 (session) 405.3 227.33 P
+2 F
+4.29 ( is an abstraction for the) 434.19 227.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.41 (sequence of read and write operations performed during) 318 215.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.54 (the execution of an application. Sessions are not intended) 318 203.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.38 (to correspond to atomic transactions that ensure atomicity) 318 191.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.24 (and serializability) 318 179.33 P
+0.24 (. Instead, the intent is to present individ-) 388.97 179.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.18 (ual applications with a view of the database that is consis-) 318 167.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.54 (tent with their own actions, even if they read and write) 318 155.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.14 (from various, potentially inconsistent servers. W) 318 143.33 P
+-0.14 (e want the) 511.18 143.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.79 (results of operations performed in a session to be consis-) 318 131.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.12 (tent with the model of a single centralized server) 318 119.33 P
+0.12 (, possibly) 513.54 119.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(being read and updated concurrently by multiple clients.) 318 107.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 14 Q
+(Session Guarantees for W) 129.84 674.67 T
+(eakly Consistent Replicated Data) 284.23 674.67 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2 12 Q
+(Douglas B. T) 90.33 640 T
+(erry) 153.82 640 T
+(, Alan J. Demers, Karin Petersen, Mike J. Spreitzer) 172.36 640 T
+(, Marvin M. Theimer) 417.5 640 T
+(,) 518.67 640 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(and Brent B. W) 258.82 626 T
+(elch) 333.19 626 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(Computer Science Laboratory) 233.68 594 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(Xerox Palo Alto Research Center) 225.68 580 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(Palo Alto, California 94304) 239.33 566 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+FMENDPAGE
+%%EndPage: "1" 1
+%%Page: "2" 2
+612 792 0 FMBEGINPAGE
+[0 0 0 1 0 0 0]
+[ 0 1 1 0 1 0 0]
+[ 1 0 1 0 0 1 0]
+[ 1 1 0 0 0 0 1]
+[ 1 0 0 0 0 1 1]
+[ 0 1 0 0 1 0 1]
+[ 0 0 1 0 1 1 0]
+ 7 FrameSetSepColors
+FrameNoSep
+0 0 0 1 0 0 0 K
+2 10 Q
+0 X
+0 0 0 1 0 0 0 K
+0.06 (T) 72 707.33 P
+0.06 (o achieve this, we propose four guarantees that can be) 77.41 707.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.19 (applied independently to the operations belonging to a ses-) 60 695.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(sion. The guarantees are summarized as follows:) 60 683.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1 F
+0.89 (Read Y) 72 670.33 P
+0.89 (our W) 100.58 670.33 P
+0.89 (rites) 125.64 670.33 P
+2 F
+0.89 ( - read operations re\337ect previous) 143.42 670.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(writes.) 78 658.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1 F
+1.48 (Monotonic Reads) 72 645.33 P
+2 F
+1.48 ( - successive reads re\337ect a non-) 143.75 645.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(decreasing set of writes.) 78 633.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1 F
+1.63 (W) 72 620.33 P
+1.63 (rites Follow Reads) 79.78 620.33 P
+2 F
+1.63 ( - writes are propagated after) 158.61 620.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(reads on which they depend.) 78 608.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1 F
+3.9 (Monotonic W) 72 595.33 P
+3.9 (rites) 129.51 595.33 P
+2 F
+3.9 ( - writes are propagated after) 147.29 595.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(writes that logically precede them.) 78 583.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2.82 (These properties are "guaranteed" in the sense that) 72 570.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.91 (either the storage system ensures them for each read and) 60 558.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1 (write operation belonging to a session, or else it informs) 60 546.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(the calling application that the guarantee cannot be met.) 60 534.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.32 (The above guarantees can easily be layered on top of a) 72 522.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2.48 (weakly-consistent replicated data system. Each read or) 60 510.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.79 (write operation is performed at a single server) 60 498.33 P
+1.79 (, and the) 256.26 498.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 (writes are propagated to other servers in a lazy fashion. T) 60 486.33 P
+0 (o) 289 486.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.16 (ensure that the guarantees are met, the servers at which an) 60 474.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.6 (operation can be performed must be restricted to a subset) 60 462.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(of available servers that are suf) 60 450.33 T
+(\336ciently up-to-date.) 184.5 450.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.41 (Because enforcement of the guarantees restricts the set) 72 438.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.49 (of servers that may be used within a session, requesting a) 60 426.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2.97 (guarantee can have an adverse impact on availability) 60 414.33 P
+2.97 (.) 291.5 414.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.54 (Applications must make a trade-of) 60 402.33 P
+1.54 (f between availability) 204.28 402.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+4.36 (and consistency) 60 390.33 P
+4.36 (. For this reason, guarantees can be) 127.31 390.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.05 (requested individually on a per) 60 378.33 P
+0.05 (-session basis. Requests for) 183.86 378.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.46 (one or more of the guarantees within a session have no) 60 366.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2.61 (af) 60 354.33 P
+2.61 (fect on the availability seen by applications that are) 67.59 354.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2.38 (using other sessions or on applications that require no) 60 342.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(guarantees.) 60 330.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.5 (The particular guarantees we present were derived pri-) 72 318.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.19 (marily from the needs of applications being investigated in) 60 306.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.09 (the Bayou project at Xerox P) 60 294.33 P
+-0.09 (ARC. Bayou is a weakly con-) 175.01 294.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2.52 (sistent replicated storage system we are designing and) 60 282.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.22 (building to support collaborative applications running in a) 60 270.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+3.49 (mobile computing environment. The examples is this) 60 258.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.12 (paper discuss some of these applications and their possible) 60 246.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.29 (use of the guarantees. W) 60 234.33 P
+0.29 (e do not claim that the set of four) 158.93 234.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.23 (guarantees is complete in any way; variations are possible) 60 222.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(and may be suggested by new application domains.) 60 210.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.02 (This paper presents precise de\336nitions for each of the) 72 198.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.54 (four guarantees, gives examples of their usage by various) 60 186.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+3.14 (applications, and shows how to implement them ef) 60 174.33 P
+3.14 (\336-) 285.11 174.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.02 (ciently using version vectors. It also demonstrates how the) 60 162.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2.97 (guarantees can be added to existing systems, such as) 60 150.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.17 (Coda, with minimal or no changes to the server implemen-) 60 138.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.17 (tation. Finally) 60 126.33 P
+0.17 (, we discuss their ef) 115.64 126.33 P
+0.17 (fect on availability) 195.28 126.33 P
+0.17 (, raise) 269.95 126.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.15 (issues requiring further research, and compare this work to) 60 114.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.7 (other proposals for adding increased semantics to weakly) 60 102.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(consistent replicated data.) 60 90.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 12 Q
+(2.  Data storage model and terminology) 318 706 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2 10 Q
+1.09 (In order to provide concrete de\336nitions of the session) 330 681.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.47 (guarantees, it is \336rst necessary to present the assumptions) 318 669.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.93 (made about the underlying replicated storage system and) 318 657.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(the terminology used throughout the paper) 318 645.33 T
+(.) 487.71 645.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.39 (The most basic assumption concerns the existence of a) 330 633.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.01 (weakly consistent replicated storage system to which the) 318 621.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2.3 (guarantees will be added. Such a system consists of a) 318 609.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.11 (number of) 318 597.33 P
+1 F
+-0.11 (servers) 361.66 597.33 P
+2 F
+-0.11 ( that each hold a full copy of some repli-) 390.54 597.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.41 (cated) 318 585.33 P
+1 F
+1.41 (database) 343.01 585.33 P
+2 F
+1.41 ( and) 379.12 585.33 P
+1 F
+1.41 (clients) 401.38 585.33 P
+2 F
+1.41 ( that run applications desiring) 427.49 585.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.22 (access to the database. The session guarantees presented) 318 573.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.2 (are most applicable to systems in which clients and servers) 318 561.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.05 (may reside on separate machines and a client accesses dif-) 318 549.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.01 (ferent servers over time. For example, a mobile client may) 318 537.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.59 (choose servers based on which ones are available in its) 318 525.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(region and can be accessed most cheaply) 318 513.33 T
+(.) 481.19 513.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.2 (The term \322database\323 is not meant to imply any particu-) 330 501.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.22 (lar data model or or) 318 489.33 P
+0.22 (ganization, nor are the techniques pre-) 397.59 489.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.04 (sented in this paper speci\336c to any data model. A database) 318 477.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.82 (is simply a set of) 318 465.33 P
+1 F
+0.82 (data items) 392.39 465.33 P
+2 F
+0.82 (, where a data item could be) 434.6 465.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.35 (anything from a conventional \336le to a tuple in a relational) 318 453.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+3.64 (database. For simplicity) 318 441.33 P
+3.64 (, the discussion in this paper) 420.46 441.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.99 (focuses on a single, fully replicated database, though the) 318 429.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.19 (guarantees are equally applicable to a system that manages) 318 417.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(a collection of replicated databases.) 318 405.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2.58 (T) 330 393.33 P
+2.58 (wo main operations on a database are considered:) 335.41 393.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1 F
+1.65 (Read) 318 381.33 P
+2 F
+1.65 ( and) 338.55 381.33 P
+1 F
+1.65 (W) 361.3 381.33 P
+1.65 (rite) 369.08 381.33 P
+2 F
+1.65 (. The Read operation represents a query) 382.96 381.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.37 (over the contents of the database. A Read could be a sim-) 318 369.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.73 (ple retrieval operation such as \322return the contents of \336le) 318 357.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.57 (foo\323 or a complicated query such as \322return the names of) 318 345.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.12 (all employees who make more than their boss.\323 The W) 318 333.33 P
+0.12 (rite) 538.67 333.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.52 (operation updates the database. A W) 318 321.33 P
+0.52 (rite may involve cre-) 466.84 321.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.02 (ating, modifying, or deleting data items. It may also repre-) 318 309.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.12 (sent a transaction that atomically updates multiple items in) 318 297.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.6 (a server) 318 285.33 P
+0.6 (\325) 350.34 285.33 P
+0.6 (s database. The de\336nition and implementation of) 353.12 285.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2.21 (session guarantees is unaf) 318 273.33 P
+2.21 (fected by whether W) 428.04 273.33 P
+2.21 (rites are) 517.86 273.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+3.73 (simple database updates or more complicated atomic) 318 261.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.13 (transactions. Each W) 318 249.33 P
+1.13 (rite has a globally unique identi\336er) 404.55 249.33 P
+1.13 (,) 549.5 249.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.17 (called a \322) 318 237.33 P
+1 F
+0.17 (WID) 356.1 237.33 P
+2 F
+0.17 (\323. The server that \336rst accepts the W) 374.98 237.33 P
+0.17 (rite, for) 521.84 237.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(instance, might be responsible for assigning its WID.) 318 225.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.63 (Read and W) 330 213.33 P
+1.63 (rite operations may be performed at any) 382.28 213.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2.77 (server or set of servers. Our guarantees are presented) 318 201.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.57 (assuming that each Read or W) 318 189.33 P
+1.57 (rite is executed against a) 447.39 189.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.59 (single server) 318 177.33 P
+0.59 (\325) 369.78 177.33 P
+0.59 (s copy of the database. That is, for the most) 372.56 177.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.98 (part, we discuss variants of a read-any/write-any replica-) 318 165.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.76 (tion scheme. However) 318 153.33 P
+0.76 (, the guarantees could also be used) 408.83 153.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.04 (in systems that read or write multiple copies, such as all of) 318 141.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(the available servers in a partition [5].) 318 129.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.07 (W) 330 117.33 P
+-0.07 (e de\336ne DB\050S,t\051 to be the ordered sequence of W) 338.64 117.33 P
+-0.07 (rites) 534.78 117.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.1 (that have been received by server S at or before time t. If t) 318 105.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.33 (is known to be the current time, then it may be omitted) 318 93.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2.45 (leaving DB\050S\051 to represent the current contents of the) 318 81.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+FMENDPAGE
+%%EndPage: "2" 2
+%%Page: "3" 3
+612 792 0 FMBEGINPAGE
+[0 0 0 1 0 0 0]
+[ 0 1 1 0 1 0 0]
+[ 1 0 1 0 0 1 0]
+[ 1 1 0 0 0 0 1]
+[ 1 0 0 0 0 1 1]
+[ 0 1 0 0 1 0 1]
+[ 0 0 1 0 1 1 0]
+ 7 FrameSetSepColors
+FrameNoSep
+0 0 0 1 0 0 0 K
+2 10 Q
+0 X
+0 0 0 1 0 0 0 K
+0.9 (server) 60 707.33 P
+0.9 (\325) 84.8 707.33 P
+0.9 (s database. Conceptually) 87.58 707.33 P
+0.9 (, server S creates its copy) 187.87 707.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.24 (of the database, which it uses to answer Read requests, by) 60 695.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.9 (starting with an empty database and applying each W) 60 683.33 P
+0.9 (rite) 280.67 683.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.21 (in DB\050S\051 in the given order) 60 671.33 P
+-0.21 (. In practice, a server is allowed) 168.1 671.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.9 (to process the W) 60 659.33 P
+0.9 (rites in a dif) 129.23 659.33 P
+0.9 (ferent order as long as their) 179.8 659.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.17 (ef) 60 647.33 P
+-0.17 (fect on the database is unchanged. The order of W) 67.59 647.33 P
+-0.17 (rites in) 266.67 647.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2.38 (DB\050S\051 does not necessarily correspond to the order in) 60 635.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2.71 (which server S \336rst received the W) 60 623.33 P
+2.71 (rites \050as discussed) 216.37 623.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(below\051.) 60 611.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.06 (W) 72 599.33 P
+1.06 (eak consistency permits database copies at dif) 80.64 599.33 P
+1.06 (ferent) 270.68 599.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.22 (servers to vary) 60 587.33 P
+-0.22 (. That is, DB\050S1,t\051 is not necessarily equiva-) 117.78 587.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.25 (lent to DB\050S2,t\051 for two servers S1 and S2. However) 60 575.33 P
+-0.25 (, prac-) 268.71 575.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+3.54 (tical systems generally desire) 60 563.33 P
+1 F
+3.54 (eventual consistency) 194.15 563.33 P
+2 F
+3.54 ( in) 280.18 563.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.62 (which servers conver) 60 551.33 P
+0.62 (ge towards identical database copies) 146.02 551.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.89 (in the absence of updates. Eventual consistency relies on) 60 539.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.37 (two properties:) 60 527.33 P
+1 F
+0.37 (total pr) 123.52 527.33 P
+0.37 (opagation) 153.25 527.33 P
+2 F
+0.37 ( and) 193.81 527.33 P
+1 F
+0.37 (consistent or) 214 527.33 P
+0.37 (dering) 265.39 527.33 P
+2 F
+0.37 (.) 291.5 527.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.6 (W) 60 515.33 P
+1.6 (e assume that the replicated system provides eventual) 68.64 515.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.22 (consistency and thus includes mechanisms to ensure these) 60 503.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(two properties as follows.) 60 491.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+3.09 (W) 72 479.33 P
+3.09 (rites are propagated among servers by a process) 81.04 479.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2.54 (called) 60 467.33 P
+1 F
+2.54 (anti-entr) 88.92 467.33 P
+2.54 (opy) 123.55 467.33 P
+2 F
+2.54 (, also referred to in some papers as) 137.34 467.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.58 (rumor mongering, lazy propagation, or update dissemina-) 60 455.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.35 (tion [1,6]. Anti-entropy ensures that each W) 60 443.33 P
+0.35 (rite is eventu-) 238.32 443.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2.46 (ally received by each server) 60 431.33 P
+2.46 (. In other words, for each) 180.9 431.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.13 (W) 60 419.33 P
+0.13 (rite W there exists a time t such that W is in DB\050S,t\051 for) 69.04 419.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.37 (each server S. This paper makes no further assumptions) 60 407.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.42 (about the anti-entropy protocol, the frequency with which) 60 395.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+3.39 (it happens, the policy by which servers choose anti-) 60 383.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+3.75 (entropy partners, or other characteristics of the anti-) 60 371.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(entropy process.) 60 359.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.31 (Additionally) 72 347.33 P
+1.31 (, all servers must apply non-commutative) 121.91 347.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.86 (W) 60 335.33 P
+0.86 (rites to their databases in the same order) 69.04 335.33 P
+0.86 (. Let) 235.33 335.33 P
+1 F
+0.86 (W) 257.89 335.33 P
+0.86 (riteOr-) 265.67 335.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2.58 (der\050W1,W2\051) 60 323.33 P
+2 F
+2.58 (be a boolean predicate indicating whether) 114.22 323.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.02 (W) 60 311.33 P
+-0.02 (rite W1 should be ordered before W) 69.04 311.33 P
+-0.02 (rite W2. The system) 212.95 311.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.83 (ensures that if W) 60 299.33 P
+1.83 (riteOrder\050W1,W2\051 then W1 is ordered) 133.13 299.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.68 (before W2 in DB\050S\051 for any server S that has received) 60 287.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.71 (both W1 and W2. In a strongly consistent system, W) 60 275.33 P
+0.71 (rite-) 277.34 275.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.04 (Order would re\337ect the order in which individual W) 60 263.33 P
+1.04 (rites) 276.78 263.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.5 (or transactions are committed. In an eventually consistent) 60 251.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.1 (system, servers could use any of a variety of techniques to) 60 239.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.02 (agree upon the order of W) 60 227.33 P
+1.02 (rites. For example, the Grape-) 169.95 227.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.91 (vine system orders W) 60 215.33 P
+0.91 (rites by their origination timestamp) 149.26 215.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.08 ([4]. Using timestamps to determine the W) 60 203.33 P
+1.08 (rite order does) 234.09 203.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2.68 (not imply that servers have synchronized clocks since) 60 191.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2.56 (there is no requirement that W) 60 179.33 P
+2.56 (rites be ordered by the) 194.33 179.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2.49 (actual time at which they were performed. This paper) 60 167.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2.66 (makes no assumption about how servers agree on the) 60 155.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.16 (ordering of W) 60 143.33 P
+0.16 (rites or about how servers make their copies) 116.56 143.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.76 (of the database conform to this ordering. It only assumes) 60 131.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2.62 (that the system has some means by which W) 60 119.33 P
+2.62 (rites are) 259.45 119.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.52 (ordered consistently at every server) 60 107.33 P
+0.52 (, as required for even-) 203.88 107.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.05 (tual consistency) 60 95.33 P
+0.05 (, and uses the W) 123.56 95.33 P
+0.05 (riteOrder predicate to rep-) 189.17 95.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(resent this ordering.) 60 83.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.03 (Finally) 330 707.33 P
+0.03 (, weakly consistent systems often allow con\337ict-) 357.69 707.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0 (ing W) 318 695.33 P
+-0 (rites to occur) 342.32 695.33 P
+-0 (. That is, two clients may make concur-) 393.98 695.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2.97 (rent and incompatible updates to the same data item.) 318 683.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2.34 (Existing systems resolve con\337icting W) 318 671.33 P
+2.34 (rites in dif) 483.07 671.33 P
+2.34 (ferent) 528.68 671.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2.12 (ways. In some systems the W) 318 659.33 P
+2.12 (rite order may determine) 446.51 659.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.73 (which W) 318 647.33 P
+0.73 (rite \322wins\323, while other systems rely on humans) 354.71 647.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.75 (to resolve detected con\337icts. How the system detects and) 318 635.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.05 (resolves W) 318 623.33 P
+0.05 (rite con\337icts is important to its users but has no) 362.36 623.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(impact on our session guarantees.) 318 611.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 12 Q
+(3.  Read/W) 318 586 T
+(rite guarantees) 374.78 586 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2 10 Q
+0.81 (This section precisely de\336nes the four session guaran-) 330 561.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.95 (tees in terms of server state and Read/W) 318 549.33 P
+1.95 (rite operations) 492.57 549.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2.94 (performed at servers. Although session guarantees are) 318 537.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2.88 (directly applicable to systems with client caching, we) 318 525.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.74 (present the guarantees as if clients do not cache data that) 318 513.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.1 (they read. An application may use one or more sessions to) 318 501.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.25 (control the scope of the guarantees that it requests. This) 318 489.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.71 (implies that each Read and W) 318 477.33 P
+0.71 (rite operation issued by the) 440.84 477.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.26 (application is associated with a session. How this associa-) 318 465.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.53 (tion is made and whether sessions can be shared across) 318 453.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2.15 (programs, processes, or machines is an implementation) 318 441.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(detail that is left unspeci\336ed.) 318 429.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 11 Q
+(3.1  Read Y) 318 404.67 T
+(our W) 371.16 404.67 T
+(rites) 401.21 404.67 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2 10 Q
+1.54 (The Read Y) 330 380.33 P
+1.54 (our W) 380.4 380.33 P
+1.54 (rites guarantee is motivated by the) 406.81 380.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.44 (fact that users and applications \336nd it particularly confus-) 318 368.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.22 (ing if they update a database and then immediately read) 318 356.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.17 (from the database only to discover that the update appears) 318 344.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.33 (to be missing. This guarantee ensures that the ef) 318 332.33 P
+1.33 (fects of) 520.96 332.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2.13 (any W) 318 320.33 P
+2.13 (rites made within a session are visible to Reads) 346.11 320.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.23 (within that session. In other words, Reads are restricted to) 318 308.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.89 (copies of the database that include all previous W) 318 296.33 P
+0.89 (rites in) 523.61 296.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(this session. Speci\336cally:) 318 284.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 F
+1.19 (R) 330 271.33 P
+1.19 (YW) 336.87 271.33 P
+1.19 (-guarantee) 353.72 271.33 P
+2 F
+1.19 (: If Read R follows W) 399.82 271.33 P
+1.19 (rite W in a) 493.95 271.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.32 (session and R is performed at server S at time t,) 336 259.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(then W is included in DB\050S,t\051.) 336 247.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.16 (Applications are not guaranteed that a Read following a) 330 234.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.17 (W) 318 222.33 P
+-0.17 (rite to the same data item will return the previously writ-) 327.04 222.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.59 (ten value. In particular) 318 210.33 P
+0.59 (, Reads within the session may see) 409.89 210.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(other W) 318 198.33 T
+(rites that are performed outside the session.) 350.09 198.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2.06 (Consider a couple of examples to illustrate how the) 330 186.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(R) 318 174.33 T
+(YW) 324.12 174.33 T
+(-guarantee might be used in practice.) 340.23 174.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 F
+1.62 (Example 1.) 318 160.33 P
+2 F
+1.62 (After changing his password, a Grapevine) 375.63 160.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+3.79 (user would occasionally type the new password and) 318 148.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2.3 (receive an \322invalid password\323 response. This annoying) 318 136.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.05 (problem would arise because the login process contacted a) 318 124.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.2 (server to which the new password had not yet propagated.) 318 112.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.66 (The problem is not speci\336c to Grapevine but could occur) 318 100.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.5 (in any weakly consistent system that manages passwords.) 318 88.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.3 (It can be solved cleanly by having a session per user in) 318 76.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+FMENDPAGE
+%%EndPage: "3" 3
+%%Page: "4" 4
+612 792 0 FMBEGINPAGE
+[0 0 0 1 0 0 0]
+[ 0 1 1 0 1 0 0]
+[ 1 0 1 0 0 1 0]
+[ 1 1 0 0 0 0 1]
+[ 1 0 0 0 0 1 1]
+[ 0 1 0 0 1 0 1]
+[ 0 0 1 0 1 1 0]
+ 7 FrameSetSepColors
+FrameNoSep
+0 0 0 1 0 0 0 K
+2 10 Q
+0 X
+0 0 0 1 0 0 0 K
+2.48 (which the R) 60 707.33 P
+2.48 (YW) 112.74 707.33 P
+2.48 (-guarantee is provided. Such a session) 128.85 707.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.14 (should be created for each new user and must exist for the) 60 695.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.26 (lifetime of the user) 60 683.33 P
+1.26 (\325) 139.96 683.33 P
+1.26 (s account. By performing updates to) 142.74 683.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.8 (the user) 60 671.33 P
+1.8 (\325) 93.55 671.33 P
+1.8 (s password as well as checks of this password) 96.33 671.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.57 (within the session, users can use a new password without) 60 659.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.05 (regard for the extent of its propagation. The R) 60 647.33 P
+0.05 (YW) 244.02 647.33 P
+0.05 (-guaran-) 260.13 647.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2.15 (tee ensures that the login process will always read the) 60 635.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.06 (most recent password. Notice that this application requires) 60 623.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(a session to persist across logouts and machine reboots.) 60 611.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 F
+2.18 (Example 2.) 60 597.33 P
+2 F
+2.18 (Consider a user whose electronic mail is) 119.31 597.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.69 (managed in a weakly consistent replicated database. As) 60 585.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.31 (the user reads and deletes messages, those messages are) 60 573.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.2 (removed from the displayed \322new mail\323 folder) 60 561.33 P
+0.2 (. If the user) 247.85 561.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.59 (stops reading mail and returns sometime later) 60 549.33 P
+0.59 (, she should) 245.32 549.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.19 (not see deleted messages reappear simply because the mail) 60 537.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.43 (reader refreshed its display from a dif) 60 525.33 P
+1.43 (ferent copy of the) 218.9 525.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.14 (database. The R) 60 513.33 P
+1.14 (YW) 125.87 513.33 P
+1.14 (-guarantee can be requested within a) 141.98 513.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.14 (session used by the mail reader to ensure that the ef) 60 501.33 P
+-0.14 (fects of) 264.43 501.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.15 (any actions taken, such as deleting a message or moving a) 60 489.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(message to another folder) 60 477.33 T
+(, remain visible.) 162.63 477.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 11 Q
+(3.2  Monotonic Reads) 60 452.67 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2 10 Q
+4.32 (The Monotonic Reads guarantee permits users to) 72 428.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2.44 (observe a database that is increasingly up-to-date over) 60 416.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2.05 (time. It ensures that Read operations are made only to) 60 404.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.94 (database copies containing all W) 60 392.33 P
+0.94 (rites whose ef) 195.01 392.33 P
+0.94 (fects were) 252.25 392.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(seen by previous Reads within the session.) 60 380.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.47 (Intuitively) 72 368.33 P
+1.47 (, a set of W) 113.02 368.33 P
+1.47 (rites completely determines the) 164.33 368.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.85 (result of a Read if the set includes \322enough\323 of the data-) 60 356.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2.5 (base\325) 60 344.33 P
+2.5 (s W) 80.55 344.33 P
+2.5 (rites so that the result of executing the Read) 98.48 344.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2.23 (against this set is the same as executing it against the) 60 332.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.83 (whole database. Speci\336cally) 60 320.33 P
+1.83 (, we say a W) 176.6 320.33 P
+1.83 (rite set WS is) 234.9 320.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1 F
+1.05 (complete) 60 308.33 P
+2 F
+1.05 ( for Read R and DB\050S,t\051 if and only if WS is a) 96.1 308.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.93 (subset of DB\050S,t\051 and for any set WS2 that contains WS) 60 296.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.7 (and is also a subset of DB\050S,t\051, the result of R applied to) 60 284.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(WS2 is the same as the result of R applied to DB\050S,t\051.) 60 272.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+4.57 (Let) 72 260.33 P
+1 F
+4.57 (RelevantW) 92.4 260.33 P
+4.57 (rites\050S,t,R\051) 135.17 260.33 P
+2 F
+4.57 ( denote the function that) 178.5 260.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0 (returns the smallest set of W) 60 248.33 P
+-0 (rites that is complete for Read) 173.74 248.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.51 (R and DB\050S,t\051. Some complete set exists since DB\050S,t\051 is) 60 236.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.7 (itself complete for any Read. If the smallest complete set) 60 224.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.31 (is not unique, the tie may be broken in an arbitrary) 60 212.33 P
+1.31 (, but) 274.91 212.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+3.45 (deterministic manner) 60 200.33 P
+3.45 (. Intuitively) 147.61 200.33 P
+3.45 (, RelevantW) 197.07 200.33 P
+3.45 (rites\050S,t,R\051) 250.11 200.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.48 (is a smallest set that is \322enough\323 to completely determine) 60 188.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.48 (the result of R. Given this function, the Monotonic Reads) 60 176.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(guarantee can be de\336ned precisely as follows:) 60 164.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 F
+1.26 (MR-guarantee) 72 151.33 P
+2 F
+1.26 (: If Read R1 occurs before R2 in a) 134.76 151.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.16 (session and R1 accesses server S1 at time t1 and) 78 139.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.51 (R2 accesses server S2 at time t2, then Relevant-) 78 127.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(W) 78 115.33 T
+(rites\050S1,t1,R1\051 is a subset of DB\050S2,t2\051.) 87.04 115.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 F
+0.78 (Example 3.) 60 101.33 P
+2 F
+0.78 (A user) 115.11 101.33 P
+0.78 (\325) 142.64 101.33 P
+0.78 (s appointment calendar is stored on-) 145.42 101.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.29 (line in a replicated database where it can be updated by) 60 89.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+3.35 (both the user and automatic meeting schedulers. The) 60 77.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.89 (user) 318 707.33 P
+0.89 (\325) 335.03 707.33 P
+0.89 (s calendar program periodically refreshes its display) 337.81 707.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.92 (by reading all of today\325) 318 695.33 P
+0.92 (s calendar appointments from the) 415.01 695.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.4 (database. If it accesses servers with inconsistent copies of) 318 683.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2.01 (the database, recently added \050or deleted\051 meetings may) 318 671.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.15 (appear to come and go. The MR-guarantee can ef) 318 659.33 P
+0.15 (fectively) 517.01 659.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.13 (prevent this since it disallows access to copies of the data-) 318 647.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(base that are less current than the previously read copy) 318 635.33 T
+(.) 536.46 635.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 F
+0.79 (Example 4.) 318 621.33 P
+2 F
+0.79 (Once again, consider a replicated electronic) 373.14 621.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.01 (mail database. The mail reader issues a query to retrieve) 318 609.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.23 (all new mail messages and displays summaries of these to) 318 597.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.57 (the user) 318 585.33 P
+0.57 (. When the user issues a request to display one of) 349.4 585.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2 (these messages, the mail reader issues another Read to) 318 573.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.1 (retrieve the message\325) 318 561.33 P
+0.1 (s contents. The MR-guarantee can be) 402.63 561.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.64 (used by the mail reader to ensure that the second Read is) 318 549.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.12 (issued to a server that holds a copy of the message. Other-) 318 537.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.8 (wise, the user) 318 525.33 P
+0.8 (, upon trying to display the message, might) 373.91 525.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(incorrectly be informed that the message does not exist.) 318 513.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 11 Q
+(3.3  W) 318 488.67 T
+(rites Follow Reads) 348.05 488.67 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2 10 Q
+0.63 (The W) 330 464.33 P
+0.63 (rites Follow Reads guarantee ensures that tradi-) 357.72 464.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.19 (tional W) 318 452.33 P
+-0.19 (rite/Read dependencies are preserved in the order-) 352.13 452.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.93 (ing of W) 318 440.33 P
+0.93 (rites at all servers. That is, in every copy of the) 355 440.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.11 (database, W) 318 428.33 P
+0.11 (rites made during the session are ordered after) 366.58 428.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.55 (any W) 318 416.33 P
+0.55 (rites whose ef) 344.53 416.33 P
+0.55 (fects were seen by previous Reads in) 400.98 416.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(the session.) 318 404.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 F
+0.26 (WFR-guarantee) 330 391.33 P
+2 F
+0.26 (: If Read R1 precedes W) 399.43 391.33 P
+0.26 (rite W2 in) 498.92 391.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.4 (a session and R1 is performed at server S1 at time) 336 379.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.04 (t1, then, for any server S2, if W2 is in DB\050S2\051 then) 336 367.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+3.05 (any W1 in RelevantW) 336 355.33 P
+3.05 (rites\050S1,t1,R1\051 is also in) 433.9 355.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(DB\050S2\051 and W) 336 343.33 T
+(riteOrder\050W1,W2\051.) 395.59 343.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.69 (This guarantee is dif) 330 330.33 P
+0.69 (ferent in nature from the previous) 413.83 330.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.65 (two guarantees in that it af) 318 318.33 P
+0.65 (fects users outside the session.) 427.46 318.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.05 (Not only does the session observe that the W) 318 306.33 P
+1.05 (rites it per-) 506.01 306.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.3 (forms occur after any W) 318 294.33 P
+1.3 (rites it had previously seen, but) 420.53 294.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.24 (also all other clients will see the same ordering of these) 318 282.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.52 (W) 318 270.33 P
+0.52 (rites regardless of whether they request session guaran-) 327.04 270.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(tees.) 318 258.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 F
+1.23 (Example 5.) 318 244.33 P
+2 F
+1.23 (Imagine a shared bibliographic database to) 374.48 244.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+5.75 (which users contribute entries describing published) 318 232.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.63 (papers. Suppose that a user reads some entry) 318 220.33 P
+1.63 (, discovers) 507.6 220.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.61 (that it is inaccurate, and then issues a W) 318 208.33 P
+0.61 (rite to update the) 482.69 208.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2.39 (entry) 318 196.33 P
+2.39 (. For instance, the person might discover that the) 337.9 196.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.02 (page numbers for a paper are wrong and then correct them) 318 184.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.94 (with a W) 318 172.33 P
+0.94 (rite such as \322UPDA) 356.13 172.33 P
+0.94 (TE bibdb SET pages = \32445-) 436.98 172.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.33 (53\325 WHERE bibid = \324Jones93\325.\323 The WFR-guarantee can) 318 160.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2.22 (ensure that the new W) 318 148.33 P
+2.22 (rite updates the previous biblio-) 415.9 148.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(graphic entry at all servers.) 318 136.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2.01 (The WFR-guarantee, as de\336ned, associates two con-) 330 124.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.06 (straints on W) 318 112.33 P
+1.06 (rite operations. A constraint on W) 373.04 112.33 P
+1.06 (rite order) 514.01 112.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2.02 (ensures that a W) 318 100.33 P
+2.02 (rite properly follows previous relevant) 390.04 100.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.03 (W) 318 88.33 P
+0.03 (rites in the global ordering that all database replicas will) 327.04 88.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2.57 (eventually re\337ect. A constraint on propagation ensures) 318 76.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+FMENDPAGE
+%%EndPage: "4" 4
+%%Page: "5" 5
+612 792 0 FMBEGINPAGE
+[0 0 0 1 0 0 0]
+[ 0 1 1 0 1 0 0]
+[ 1 0 1 0 0 1 0]
+[ 1 1 0 0 0 0 1]
+[ 1 0 0 0 0 1 1]
+[ 0 1 0 0 1 0 1]
+[ 0 0 1 0 1 1 0]
+ 7 FrameSetSepColors
+FrameNoSep
+0 0 0 1 0 0 0 K
+2 10 Q
+0 X
+0 0 0 1 0 0 0 K
+1.78 (that all servers \050and hence all clients\051 only see a W) 60 707.33 P
+1.78 (rite) 280.67 707.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.39 (after they have seen all the previous W) 60 695.33 P
+1.39 (rites on which it) 225.11 695.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2.76 (depends. Example 5 requires both of these properties.) 60 683.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2.9 (Some applications, however) 60 671.33 P
+2.9 (, may require only one of) 178.43 671.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.29 (them. For such applications, systems may wish to provide) 60 659.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2.06 (relaxed variants of the W) 60 647.33 P
+2.06 (rites Follow Reads guarantee,) 168.94 647.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.67 (one to guarantee how W) 60 635.33 P
+0.67 (rites are ordered and the other to) 160.03 635.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(guarantee how they propagate among servers:) 60 623.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 F
+0.72 (WFRO-guarantee) 72 610.33 P
+2 F
+0.72 (: If Read R1 precedes W) 149.21 610.33 P
+0.72 (rite W2) 251.01 610.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.4 (in a session and R1 is performed at server S1 at) 78 598.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.31 (time t1, then W) 78 586.33 P
+1.31 (riteOrder\050W1,W2\051 for any W1 in) 143.75 586.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(RelevantW) 78 574.33 T
+(rites\050S1,t1,R1\051.) 122.59 574.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 F
+1 (WFRP-guarantee) 72 561.33 P
+2 F
+1 (: If Read R1 precedes W) 147.54 561.33 P
+1 (rite W2) 250.73 561.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.4 (in a session and R1 is performed at server S1 at) 78 549.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.09 (time t1, then, for any server S2, if W2 is in DB\050S2\051) 78 537.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.2 (then any W1 in RelevantW) 78 525.33 P
+-0.2 (rites\050S1,t1,R1\051 is also in) 185.66 525.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(DB\050S2\051.) 78 513.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 F
+0.47 (Example 6.) 60 499.33 P
+2 F
+0.47 (Consider a weakly consistent replicated bul-) 114.19 499.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.79 (letin board database that requires users to post articles or) 60 487.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.91 (to reply to articles by performing database W) 60 475.33 P
+1.91 (rites. The) 254.32 475.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.16 (WFRP-guarantee can be used within this system to ensure) 60 463.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.24 (that users see the replies to a posted article only after they) 60 451.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.65 (have seen the original. A user who replies to an article) 60 439.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.29 (must simply issue the reply in the same session as used to) 60 427.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.38 (read the article being replied to. Users who are only read-) 60 415.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.11 (ing articles need not request any guarantees. While the full) 60 403.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+3.06 (WFR-guarantee would suf) 60 391.33 P
+3.06 (\336ce for this application, the) 172.04 391.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.6 (ordering property is not necessary since the posting of an) 60 379.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.79 (article and the posting of a reply are commutative opera-) 60 367.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(tions as far as the database is concerned.) 60 355.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 F
+1.51 (Example 7.) 60 341.33 P
+2 F
+1.51 (Let\325) 117.31 341.33 P
+1.51 (s revisit the shared bibliographic data-) 133.42 341.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.28 (base discussed in Example 5. Suppose that W) 60 329.33 P
+1.28 (rite opera-) 251.35 329.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.4 (tions always contain complete bibliographic entries rather) 60 317.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.01 (than partial updates. For instance, to update the page num-) 60 305.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.16 (bers in an entry) 60 293.33 P
+0.16 (, a user would read the previous entry) 121.76 293.33 P
+0.16 (, cor-) 272.74 293.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.17 (rect the \322pages\323 \336eld and then W) 60 281.33 P
+0.17 (rite back the full updated) 193.35 281.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.16 (entry including all of the unmodi\336ed \336elds. In this case,) 60 269.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.85 (the WFRO-guarantee could be used instead of the WFR-) 60 257.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.31 (guarantee. The reason is that permitting users to see the) 60 245.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.58 (newest version of a bibliography entry is acceptable even) 60 233.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.8 (if older versions have not yet reached the server they are) 60 221.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(using.) 60 209.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 11 Q
+(3.4  Monotonic W) 60 184.67 T
+(rites) 143.52 184.67 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2 10 Q
+0.29 (The Monotonic W) 72 160.33 P
+0.29 (rites guarantee says that W) 146.05 160.33 P
+0.29 (rites must) 254.54 160.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.28 (follow previous W) 60 148.33 P
+0.28 (rites within the session. In other words,) 135.14 148.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.48 (a W) 60 136.33 P
+0.48 (rite is only incorporated into a server) 76.46 136.33 P
+0.48 (\325) 227.49 136.33 P
+0.48 (s database copy) 230.27 136.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.38 (if the copy includes all previous session W) 60 124.33 P
+0.38 (rites; the W) 233.65 124.33 P
+0.38 (rite) 280.67 124.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(is ordered after the previous W) 60 112.33 T
+(rites.) 183.73 112.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 F
+0.22 (MW) 330 707.33 P
+0.22 (-guarantee) 349.07 707.33 P
+2 F
+0.22 (: If W) 395.17 707.33 P
+0.22 (rite W1 precedes W) 419.08 707.33 P
+0.22 (rite W2 in) 499.02 707.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.04 (a session, then, for any server S2, if W2 in DB\050S2\051) 336 695.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+6.07 (then W1 is also in DB\050S2\051 and W) 336 683.33 P
+6.07 (riteOr-) 512.79 683.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(der\050W1,W2\051.) 336 671.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2.29 (This guarantee provides assurances that are relevant) 330 658.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.16 (both to the user of a session as well as to users outside the) 318 646.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.83 (session. As with the W) 318 634.33 P
+0.83 (rites Follow Reads guarantee, one) 412.86 634.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.78 (could de\336ne two variants that allow applications to sepa-) 318 622.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(rately control W) 318 610.33 T
+(rite order and W) 383.14 610.33 T
+(rite propagation.) 448.55 610.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 F
+0.88 (Example 8.) 318 596.33 P
+2 F
+0.88 (The MW) 373.41 596.33 P
+0.88 (-guarantee could be used by a text) 410.11 596.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.71 (editor when editing replicated \336les to ensure that if the) 318 584.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.74 (user saves version N of the \336le and later saves version) 318 572.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.83 (N+1 then version N+1 will replace version N at all serv-) 318 560.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.11 (ers. In particular) 318 548.33 P
+-0.11 (, it avoids the situation in which version N) 383.18 548.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.25 (is written to some server and version N+1 to a dif) 318 536.33 P
+1.25 (ferent) 528.68 536.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.05 (server and the versions get propagated such that version N) 318 524.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(is applied after N+1.) 318 512.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 F
+2.08 (Example 9.) 318 498.33 P
+2 F
+2.08 (Consider a replicated database containing) 377.03 498.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.18 (software source code. Suppose that a programmer updates) 318 486.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2.24 (a library to add functionality in an upward compatible) 318 474.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.83 (way) 318 462.33 P
+0.83 (. This new library can be propagated to other servers) 334.01 462.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.29 (in a lazy fashion since it will not cause any existing client) 318 450.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.28 (software to break. However) 318 438.33 P
+0.28 (, suppose that the programmer) 429.51 438.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.18 (also updates an application to make use of the new library) 318 426.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.18 (functionality) 318 414.33 P
+0.18 (. In this case, if the new application code gets) 368.46 414.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2.83 (written to servers that have not yet received the new) 318 402.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.93 (library) 318 390.33 P
+1.93 (, then the code will not compile successfully) 344.01 390.33 P
+1.93 (. T) 534.66 390.33 P
+1.93 (o) 547 390.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.33 (avoid this potential problem, the programmer can create a) 318 378.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.02 (new session that provides the MW) 318 366.33 P
+0.02 (-guarantee and issue the) 455.58 366.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2.01 (W) 318 354.33 P
+2.01 (rites containing new versions of both the library and) 327.04 354.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(application code within this session.) 318 342.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+3.16 (Under certain circumstances, the Monotonic W) 330 330.33 P
+3.16 (rites) 534.78 330.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.39 (guarantee may be implied by the combination of W) 318 318.33 P
+1.39 (rites) 534.78 318.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.44 (Follow Reads and Read Y) 318 306.33 P
+1.44 (our W) 427.76 306.33 P
+1.44 (rites. For instance, sup-) 454.07 306.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.85 (pose that in Example 8 the text editor always Reads ver-) 318 294.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.33 (sion N before producing version N+1. In this case, W) 318 282.33 P
+0.33 (rites) 534.78 282.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.07 (Follow Reads is suf) 318 270.33 P
+0.07 (\336cient to ensure the proper ordering of) 397.19 270.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.01 (versions. In general, this does not hold. Consider a session) 318 258.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.97 (that consists of the following series of operations: W1 R) 318 246.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.44 (W2. The WFR-guarantee says only that W2 will follow) 318 234.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.08 (the relevant W) 318 222.33 P
+0.08 (rites of R. If some other application were to) 376.64 222.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.19 (submit a W) 318 210.33 P
+-0.19 (rite Wx between W1 and R, and Wx overwrites) 363.32 210.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.19 (the data written by W1, W1 would be absent from the rele-) 318 198.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.75 (vant W) 318 186.33 P
+0.75 (rites of R. Since there is no ordering between W1) 347.51 186.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.56 (and Wx, the ordering imposed by Monotonic W) 318 174.33 P
+1.56 (rites on) 520.72 174.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(W1 and W2 would be lost.) 318 162.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 12 Q
+(4.  Pr) 318 137 T
+(oviding the guarantees) 345.44 137 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2 10 Q
+1.75 (T) 330 112.33 P
+1.75 (echniques for implementing the four guarantees are) 335.41 112.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.02 (presented in this section. These simple techniques are then) 318 100.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.37 (re\336ned into more practical implementations in a later sec-) 318 88.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.54 (tion. The emphasis here is on devising correct implemen-) 318 76.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+FMENDPAGE
+%%EndPage: "5" 5
+%%Page: "6" 6
+612 792 0 FMBEGINPAGE
+[0 0 0 1 0 0 0]
+[ 0 1 1 0 1 0 0]
+[ 1 0 1 0 0 1 0]
+[ 1 1 0 0 0 0 1]
+[ 1 0 0 0 0 1 1]
+[ 0 1 0 0 1 0 1]
+[ 0 0 1 0 1 1 0]
+ 7 FrameSetSepColors
+FrameNoSep
+0 0 0 1 0 0 0 K
+2 10 Q
+0 X
+0 0 0 1 0 0 0 K
+0.99 (tations of the session guarantees and on precisely stating) 60 707.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.38 (the requirements placed on the underlying replicated stor-) 60 695.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2.4 (age system. Problems concerning the amount of band-) 60 683.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.61 (width used between clients and servers, the storage space) 60 671.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.96 (needed by clients and servers, and the computation costs) 60 659.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.64 (involved are addressed in Section 5. Also, the implemen-) 60 647.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.19 (tations ignore issues of client caching. This allows us to) 60 635.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2.43 (present the basic implementation of session guarantees) 60 623.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.06 (without the obscuring details of dealing with caches that) 60 611.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(are too small or get \337ushed at inopportune times.) 60 599.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2.02 (The implementations require only minor cooperation) 72 587.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.94 (from the servers that process Read and W) 60 575.33 P
+0.94 (rite operations.) 233.07 575.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.01 (Speci\336cally) 60 563.33 P
+-0.01 (, a server must be willing to return information) 106.57 563.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.12 (about the unique identi\336er \050WID\051 assigned to a new W) 60 551.33 P
+-0.12 (rite,) 278.17 551.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.74 (the set of WIDs for W) 60 539.33 P
+1.74 (rites that are relevant to a given) 157.46 539.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(Read, and the set of WIDs for all W) 60 527.33 T
+(rites in its database.) 203.73 527.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.12 (The burden of providing the guarantees lies primarily) 72 515.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.35 (with the) 60 503.33 P
+1 F
+0.35 (session manager) 95.71 503.33 P
+2 F
+0.35 ( through which all of a session\325) 163 503.33 P
+0.35 (s) 290.11 503.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2.86 (Read and W) 60 491.33 P
+2.86 (rite operations are serialized. The session) 114.75 491.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.23 (manager can be considered a component of the client stub) 60 479.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.27 (that mediates communication with available servers. For) 60 467.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(each session, it maintains two sets of WIDs:) 60 455.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1 F
+0.8 (r) 72 442.33 P
+0.8 (ead-set) 75.52 442.33 P
+2 F
+0.8 ( = set of WIDs for the W) 104.4 442.33 P
+0.8 (rites that are rele-) 209.36 442.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(vant to session Reads) 78 430.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1 F
+0.67 (write-set) 72 417.33 P
+2 F
+0.67 ( = set of WIDs for those W) 107 417.33 P
+0.67 (rites performed) 219.96 417.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(in the session) 78 405.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2.06 (An alternative to recording WIDs would be to keep) 72 392.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.64 (copies of the W) 60 380.33 P
+0.64 (rites themselves. These W) 124.56 380.33 P
+0.64 (rites could then) 231.06 380.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.26 (be passed from clients to servers to bring a server suf) 60 368.33 P
+1.26 (\336-) 285.11 368.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2.44 (ciently up-to-date before it could process the session\325) 60 356.33 P
+2.44 (s) 290.11 356.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.1 (Read and W) 60 344.33 P
+-0.1 (rite requests. This option was rejected because) 108.82 344.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.69 (allowing W) 60 332.33 P
+0.69 (rites to pass between servers via clients could) 107.23 332.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.65 (violate the propagation guarantees associated with W) 60 320.33 P
+0.65 (rites) 276.78 320.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(Follow Reads and Monotonic W) 60 308.33 T
+(rites.) 190.15 308.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.18 (Providing the Read Y) 72 296.33 P
+-0.18 (our W) 157.39 296.33 P
+-0.18 (rites guarantee involves two) 182.07 296.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.6 (basic steps. Whenever a W) 60 284.33 P
+0.6 (rite is accepted by a server) 170.01 284.33 P
+0.6 (, its) 278.95 284.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.1 (assigned WID is added to the session\325) 60 272.33 P
+1.1 (s write-set. Before) 218.22 272.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.42 (each Read to server S at time t, the session manager must) 60 260.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.4 (check that the write-set is a subset of DB\050S,t\051. This check) 60 248.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.14 (could be done on the server by passing the write-set to the) 60 236.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.96 (server or could be done on the client by retrieving the) 60 224.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.05 (server) 60 212.33 P
+1.05 (\325) 84.8 212.33 P
+1.05 (s list of WIDs. The session manager can continue) 87.58 212.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.14 (trying available servers until it discovers one for which the) 60 200.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.83 (check succeeds. If it cannot \336nd a suitable server) 60 188.33 P
+0.83 (, then it) 262.05 188.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(reports that the guarantee cannot be provided.) 60 176.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.49 (Providing the Monotonic Reads guarantee is similar in) 72 164.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.63 (that before each Read to server S at time t, the session) 60 152.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+3.13 (manager must ensure that the read-set is a subset of) 60 140.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.98 (DB\050S,t\051. Additionally) 60 128.33 P
+0.98 (, after each Read R to server S, the) 147.28 128.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.13 (WIDs for each W) 60 116.33 P
+1.13 (rite in RelevantW) 133.79 116.33 P
+1.13 (rites\050S,t,R\051 should be) 206.74 116.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2.2 (added to the session\325) 60 104.33 P
+2.2 (s read-set. This presumes that the) 149.66 104.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2.22 (server can compute the relevant W) 60 92.33 P
+2.22 (rites and return this) 209.84 92.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(information along with the Read result.) 60 80.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2.28 (Unlike the Read Y) 330 707.33 P
+2.28 (our W) 410.54 707.33 P
+2.28 (rites and Monotonic Reads) 437.68 707.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2.08 (guarantees, implementing the W) 318 695.33 P
+2.08 (rites Follow Reads and) 453.82 695.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.48 (Monotonic W) 318 683.33 P
+1.48 (rites guarantees requires placing two addi-) 374.91 683.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.25 (tional, but reasonable, constraints on the servers\325 behav-) 318 671.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(ior:) 318 659.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(C1.) 318 646.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.38 (When a server S accepts a new W) 336 646.33 P
+0.38 (rite W2 at time t, it) 474.01 646.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1 (ensures that W) 336 634.33 P
+1 (riteOrder\050W1,W2\051 is true for any W1) 397.04 634.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.47 (already in DB\050S,t\051. That is, new W) 336 622.33 P
+1.47 (rites are ordered) 484.1 622.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(after W) 336 610.33 T
+(rites that are already known to a server) 365.86 610.33 T
+(.) 520.54 610.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(C2.) 318 597.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.17 (Anti-entropy is performed such that if W2 is propa-) 336 597.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.93 (gated from server S1 to server S2 at time t then any) 336 585.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.01 (W1 in DB\050S1,t\051 such that W) 336 573.33 P
+0.01 (riteOrder\050W1,W2\051 is also) 449.52 573.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(propagated to S2.) 336 561.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+4.01 (Actually) 330 548.33 P
+4.01 (, these requirements as stated are slightly) 363.79 548.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.22 (stronger than needed for the guarantees. Strictly speaking,) 318 536.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2.45 (the two conditions discussed above must hold for any) 318 524.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.4 (W) 318 512.33 P
+0.4 (rite W1 in the session\325) 327.04 512.33 P
+0.4 (s read-set or write-set rather than) 418.09 512.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2 (for any W) 318 500.33 P
+2 (rite in DB\050S,t\051. This subtle distinction is not) 362.14 500.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.62 (likely to have a practical consequence since the weaker) 318 488.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.98 (requirements would require a server to keep track of cli-) 318 476.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.28 (ents\325 read-sets and write-sets. The stronger requirements) 318 464.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.32 (allow a server) 318 452.33 P
+0.32 (\325) 375.09 452.33 P
+0.32 (s behavior to be independent of the session) 377.87 452.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(state maintained by clients.) 318 440.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.78 (Fortunately) 330 428.33 P
+0.78 (, these conditions are met in many systems) 375.46 428.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2.06 (providing weakly consistent replicated data. In general,) 318 416.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.16 (ordering new W) 318 404.33 P
+0.16 (rites after previous W) 382.89 404.33 P
+0.16 (rites, as requested in) 469.88 404.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.48 (C1, is a desirable system property) 318 392.33 P
+0.48 (. Moreover) 455.29 392.33 P
+0.48 (, it is easy to) 499.8 392.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.94 (ensure. If the W) 318 380.33 P
+0.94 (riteOrder predicate is computed by com-) 384.84 380.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.66 (paring timestamps, for instance, then a new W) 318 368.33 P
+1.66 (rite must) 515.05 368.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.12 (simply be timestamped later than previous W) 318 356.33 P
+-0.12 (rites received) 498.53 356.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.2 (by the server) 318 344.33 P
+0.2 (. Constraint C2, in practice, means that either) 369.5 344.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.25 (servers atomically transfer their complete databases during) 318 332.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.97 (anti-entropy or else they transfer W) 318 320.33 P
+0.97 (rites according to the) 464.93 320.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.62 (order that these W) 318 308.33 P
+0.62 (rites were applied to their database. As) 393.05 308.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.04 (an example of a popular system that satis\336es C2, the latest) 318 296.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2.13 (version of Coda\325) 318 284.33 P
+2.13 (s server) 388.92 284.33 P
+2.13 (-to-server \322resolution\323 protocol) 421.66 284.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.09 (brings the \336le volumes maintained by two servers into a) 318 272.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.09 (consistent state as an atomic action \050according to informa-) 318 260.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.19 (tion provided by Jay Kistler\051. The Grapevine system, how-) 318 248.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.53 (ever) 318 236.33 P
+0.53 (, does not meet this requirement because of its use of) 334.81 236.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.27 (electronic mail for propagating updates and the fact that) 318 224.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(mail messages may get reordered during delivery) 318 212.33 T
+(.) 514.53 212.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.15 (Given these constraints on servers\325 behavior) 330 200.33 P
+-0.15 (, the W) 506.32 200.33 P
+-0.15 (rites) 534.78 200.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.44 (Follow Reads guarantee can be provided as follows. As) 318 188.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.62 (with Monotonic Reads, each Read R to server S at time t) 318 176.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.78 (results in RelevantW) 318 164.33 P
+1.78 (rites\050S,t,R\051 being added to the ses-) 405.05 164.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.08 (sion\325) 318 152.33 P
+0.08 (s read-set. Before each W) 337.45 152.33 P
+0.08 (rite to server S at time t, the) 440.36 152.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.71 (session manager checks that this read-set is a subset of) 318 140.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(DB\050S,t\051.) 318 128.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+3.36 (Providing the Monotonic W) 330 116.33 P
+3.36 (rites also involves two) 452.19 116.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.12 (steps. In order for a server S to accept a W) 318 104.33 P
+-0.12 (rite at time t, the) 486.64 104.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+3.34 (server) 318 92.33 P
+3.34 (\325) 342.8 92.33 P
+3.34 (s database, DB\050S,t\051, must include the session\325) 345.58 92.33 P
+3.34 (s) 548.11 92.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+FMENDPAGE
+%%EndPage: "6" 6
+%%Page: "7" 7
+612 792 0 FMBEGINPAGE
+[0 0 0 1 0 0 0]
+[ 0 1 1 0 1 0 0]
+[ 1 0 1 0 0 1 0]
+[ 1 1 0 0 0 0 1]
+[ 1 0 0 0 0 1 1]
+[ 0 1 0 0 1 0 1]
+[ 0 0 1 0 1 1 0]
+ 7 FrameSetSepColors
+FrameNoSep
+0 0 0 1 0 0 0 K
+2 10 Q
+0 X
+0 0 0 1 0 0 0 K
+0.48 (write-set. Also, whenever a W) 60 707.33 P
+0.48 (rite is accepted by a server) 183.15 707.33 P
+0.48 (,) 291.5 707.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(its assigned WID is added to the write-set.) 60 695.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.09 (The four guarantees can be readily provided together or) 72 683.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.49 (in any combination. T) 60 671.33 P
+0.49 (able 1 summarizes for each guaran-) 149.1 671.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.91 (tee what operation causes the session state to be updated) 60 659.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.22 (and what operation requires checking this state to \336nd a) 60 647.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(suitable server) 60 635.33 T
+(.) 117.49 635.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 12 Q
+-0.66 (5.  Practical implementation of the guarantees) 60 464 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2 10 Q
+1.78 (This section introduces the use of version vectors to) 72 439.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.56 (obtain more ef) 60 427.33 P
+0.56 (\336cient implementations of the four guaran-) 119.27 427.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.05 (tees. The implementations discussed in the previous sec-) 60 415.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.57 (tion follow straightforwardly from the de\336nitions of the) 60 403.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(guarantees, but have several practical problems:) 60 391.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+3 12 Q
+(\245) 60 379.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2 10 Q
+0.34 (The session state, i.e. the set of WIDs maintained for a) 72 379.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(session, could get lar) 72 367.33 T
+(ge.) 155.7 367.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+3 12 Q
+(\245) 60 355.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2 10 Q
+0.57 (The set of relevant WIDs returned from a Read opera-) 72 355.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(tion could get lar) 72 343.33 T
+(ge.) 139.87 343.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+3 12 Q
+(\245) 60 331.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2 10 Q
+0.19 (The set of WIDs checked on a Read or W) 72 331.33 P
+0.19 (rite operation) 240.21 331.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(could get lar) 72 319.33 T
+(ge.) 121.81 319.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+3 12 Q
+(\245) 60 307.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2 10 Q
+1.35 (The information used by servers to record the W) 72 307.33 P
+1.35 (rites) 276.78 307.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(they have seen could be lar) 72 295.33 T
+(ge.) 180.4 295.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+3 12 Q
+(\245) 60 283.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2 10 Q
+2.57 (Finding a suitable server) 72 283.33 P
+2.57 (, including checking that a) 177.91 283.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.01 (server) 72 271.33 P
+1.01 (\325) 96.8 271.33 P
+1.01 (s database contains all of the necessary W) 99.58 271.33 P
+1.01 (rites,) 274.28 271.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(could be expensive.) 72 259.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+3 12 Q
+(\245) 60 247.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2 10 Q
+1.05 (The bookkeeping required of servers to determine the) 72 247.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(relevant W) 72 235.33 T
+(rites for a Read could be excessive.) 115.75 235.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.01 (V) 72 223.33 P
+1.01 (ersion vectors, which were introduced in Locus [18]) 78.11 223.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.68 (and are used by several systems to detect W) 60 211.33 P
+0.68 (rite con\337icts,) 241.1 211.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.23 (can alleviate many of these problems. A version vector is a) 60 199.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.14 (sequence of <server) 60 187.33 P
+-0.14 (, clock> pairs, one for each server) 139.37 187.33 P
+-0.14 (. The) 273.59 187.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1 F
+0.17 (server) 60 175.33 P
+2 F
+0.17 ( portion is simply a unique identi\336er for a particular) 84.99 175.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.38 (copy of the replicated database. The) 60 163.33 P
+1 F
+0.38 (clock) 209.17 163.33 P
+2 F
+0.38 ( is a value from) 230.27 163.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.47 (the given server) 60 151.33 P
+0.47 (\325) 125.18 151.33 P
+0.47 (s monotonically increasing logical clock.) 127.96 151.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.62 (The only constraint on this logical clock is that it must) 60 139.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+4.1 (increase for each W) 60 127.33 P
+4.1 (rite accepted by the server; for) 151.59 127.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2.09 (instance, it could be a Lamport clock [15], a real-time) 60 115.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.65 (clock or simply a counter) 60 103.33 P
+1.65 (. A <server) 167.68 103.33 P
+1.65 (,clock> pair serves) 215.37 103.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.77 (nicely as a WID, and this section assumes that WIDs are) 60 91.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+4 F
+(T) 103 613.33 T
+(able 1: Read/W) 108.36 613.33 T
+(rite guarantees) 179.32 613.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2 F
+(Guarantee) 84.58 583.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(session state) 161.32 589.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(updated on) 164.1 577.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(session state) 233.2 589.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(checked on) 235.43 577.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1 9 Q
+(Read Y) 81.57 556 T
+(our W) 106.49 556 T
+(rites) 128.24 556 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2 F
+(W) 176.12 556 T
+(rite) 184.25 556 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(Read) 248.81 556 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1 F
+(Monotonic Reads) 81 537 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2 F
+(Read) 176.94 537 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(Read) 248.81 537 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1 F
+(W) 69.24 518 T
+(rites Follow Reads) 76.24 518 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2 F
+(Read) 176.94 518 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(W) 247.99 518 T
+(rite) 256.13 518 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1 F
+(Monotonic W) 80 499 T
+(rites) 128.24 499 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2 F
+(W) 176.12 499 T
+(rite) 184.25 499 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(W) 247.99 499 T
+(rite) 256.13 499 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+150.24 567.75 150.24 492.25 2 L
+V
+0.5 H
+0 Z
+N
+222.12 568.25 222.12 491.75 2 L
+V
+N
+294 567.75 294 492.25 2 L
+V
+N
+149.99 568 294.25 568 2 L
+V
+N
+149.99 549 294.25 549 2 L
+V
+N
+149.99 530 294.25 530 2 L
+V
+N
+149.99 511 294.25 511 2 L
+V
+N
+149.99 492 294.25 492 2 L
+V
+N
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2 10 Q
+0.35 (assigned in this manner by the server that \336rst accepts the) 318 707.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(W) 318 695.33 T
+(rite.) 327.04 695.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.95 (Each server maintains its own version vector with the) 330 683.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.72 (following invariant: if a server has <S,c> in its version) 318 671.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.24 (vector) 318 659.33 P
+0.24 (, then it has received all W) 342.59 659.33 P
+0.24 (rites that were assigned a) 450.53 659.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.59 (WID by server S before or at logical time c on S\325) 318 647.33 P
+0.59 (s clock.) 520.86 647.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.8 (For this invariant to hold, servers must transfer W) 318 635.33 P
+0.8 (rites in) 523.7 635.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.46 (the order of their assigned WIDs during anti-entropy) 318 623.33 P
+1.46 (. A) 538.33 623.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2.72 (server) 318 611.33 P
+2.72 (\325) 342.8 611.33 P
+2.72 (s version vector is updated as part of the anti-) 345.58 611.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2.15 (entropy process so that it precisely speci\336es the set of) 318 599.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(W) 318 587.33 T
+(rites in its database.) 327.04 587.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.98 (Assuming the use of version vectors by servers, more) 330 575.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.1 (practical implementations of the guarantees are possible in) 318 563.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.24 (which the sets of WIDs are replaced by version vectors as) 318 551.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(follows:) 318 539.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.2 (T) 330 526.33 P
+-0.2 (o obtain a version vector V that provides a compact) 335.41 526.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.21 (representation for a set of WIDs, Ws, set V[S] =) 336 514.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.51 (the time of the latest WID assigned by server S in) 336 502.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(Ws \050or 0 if no W) 336 490.33 T
+(rites are from S\051.) 403.64 490.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2.59 (T) 330 477.33 P
+2.59 (o obtain a version vector V that represents the) 335.41 477.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.84 (union of two sets of WIDs, Ws1 and Ws2, \336rst) 336 465.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.82 (obtain V1 from Ws1 and V2 from Ws2 as above.) 336 453.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(Then, set V[S] = MAX\050V1[S], V2[S]\051 for all S.) 336 441.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.56 (T) 330 428.33 P
+1.56 (o check if one set of WIDs, Ws1, is a subset of) 335.41 428.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.73 (another) 336 416.33 P
+1.73 (, Ws2, \336rst obtain V1 from Ws1 and V2) 365.59 416.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.2 (from Ws2 as above. Then, check that V2 \322domi-) 336 404.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.01 (nates\323 V1, where dominance is de\336ned as one vec-) 336 392.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+3.57 (tor being greater or equal to the other in all) 336 380.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(components [18].) 336 368.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.76 (W) 330 355.33 P
+0.76 (ith these rules, the state maintained for each session) 339.04 355.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.73 (compacts into two version vectors: one to record the ses-) 318 343.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.46 (sion\325) 318 331.33 P
+0.46 (s W) 337.45 331.33 P
+0.46 (rites and one to record the session\325) 353.34 331.33 P
+0.46 (s Reads \050actu-) 494.42 331.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.01 (ally the W) 318 319.33 P
+-0.01 (rites that are relevant to the session\325) 359.23 319.33 P
+-0.01 (s Reads\051. T) 502.46 319.33 P
+-0.01 (o) 547 319.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.25 (\336nd an acceptable server) 318 307.33 P
+0.25 (, the session manager must check) 417.46 307.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.24 (that one or both of these session vectors are dominated by) 318 295.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2.83 (the server) 318 283.33 P
+2.83 (\325) 360.35 283.33 P
+2.83 (s version vector) 363.13 283.33 P
+2.83 (. Which session vectors are) 431.55 283.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.81 (checked depends on the operation being performed and) 318 271.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(the guarantees being provided within the session.) 318 259.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.32 (Servers return a version vector along with Read results) 330 247.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.67 (to indicate the relevant W) 318 235.33 P
+1.67 (rites. In practice, servers may) 427.58 235.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.17 (have dif) 318 223.33 P
+1.17 (\336culty computing the set of relevant W) 351.48 223.33 P
+1.17 (rites. For) 514.72 223.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.87 (one thing, determining the relevant W) 318 211.33 P
+0.87 (rites for a complex) 474.14 211.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.95 (query) 318 199.33 P
+1.95 (, such as one written in SQL, may be costly) 340.12 199.33 P
+1.95 (. For) 531.16 199.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2.78 (another) 318 187.33 P
+2.78 (, it may require servers to maintain substantial) 347.59 187.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.99 (bookkeeping of which W) 318 175.33 P
+0.99 (rites produced or deleted which) 421.95 175.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.48 (database items. In real systems, servers typically do not) 318 163.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.71 (remember deleted database entries; they just store a copy) 318 151.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.49 (of the database along with a version vector) 318 139.33 P
+0.49 (. For such sys-) 492.21 139.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.43 (tems, a server is allowed to return its current version vec-) 318 127.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.47 (tor as a gross estimation of the relevant W) 318 115.33 P
+0.47 (rites. This does) 490.23 115.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.76 (not violate the Monotonic Reads or W) 318 103.33 P
+0.76 (rites Follow Reads) 475.48 103.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2.07 (guarantees, it merely causes the session manager to be) 318 91.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(overly conservative when choosing acceptable servers.) 318 79.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+FMENDPAGE
+%%EndPage: "7" 7
+%%Page: "8" 8
+612 792 0 FMBEGINPAGE
+[0 0 0 1 0 0 0]
+[ 0 1 1 0 1 0 0]
+[ 1 0 1 0 0 1 0]
+[ 1 1 0 0 0 0 1]
+[ 1 0 0 0 0 1 1]
+[ 0 1 0 0 1 0 1]
+[ 0 0 1 0 1 1 0]
+ 7 FrameSetSepColors
+FrameNoSep
+0 0 0 1 0 0 0 K
+2 10 Q
+0 X
+0 0 0 1 0 0 0 K
+1.22 (The vector) 72 707.33 P
+1.22 (-based Read and W) 116.06 707.33 P
+1.22 (rite procedures are pre-) 197.34 707.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(sented in Figure 1.) 60 695.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(Read\050R,S\051 = {) 84 671.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(if MR then) 96 659.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(check S.vector dominates read-vector) 108 647.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(if R) 96 635.33 T
+(YW then) 110.73 635.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(check S.vector dominates write-vector) 108 623.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+([result, relevant-write-vector] := read R from S) 96 611.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(read-vector := MAX\050read-vector) 96 599.33 T
+(,) 226.74 599.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(relevant-write-vector\051) 108 587.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(return result) 96 575.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(}) 96 563.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(W) 84 539.33 T
+(rite\050W) 93.04 539.33 T
+(,S\051 = {) 118.22 539.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(if WFR then) 96 527.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(check S.vector dominates read-vector) 108 515.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(if MW then) 96 503.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(check S.vector dominates write-vector) 108 491.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(wid := write W to S) 96 479.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(write-vector[S] := wid.clock) 96 467.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(}) 96 455.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+4 F
+(Figure 1.) 73.36 433.33 T
+(Implementation of the guarantees) 120.61 433.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(using version vectors.) 123.93 423.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2 F
+0.11 (As an additional performance improvement, the checks) 72 408.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.22 (for a suitable server can be amortized over many opera-) 60 396.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.52 (tions within a session. In particular) 60 384.33 P
+1.52 (, the previously con-) 207.21 384.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.3 (tacted server is always an acceptable choice for the server) 60 372.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2.1 (at which to perform the next Read or W) 60 360.33 P
+2.1 (rite operation.) 235.8 360.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.2 (Thus, if the session manager "latches on" to a given server) 60 348.33 P
+-0.2 (,) 291.5 348.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.68 (then the checks can be skipped. Only when the session) 60 336.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.52 (manager switches to a dif) 60 324.33 P
+0.52 (ferent server) 164.09 324.33 P
+0.52 (, like when the pre-) 214.45 324.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.64 (vious server becomes unavailable, must a server's current) 60 312.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.79 (version vector be compared to the session's vectors. T) 60 300.33 P
+1.79 (o) 289 300.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.06 (facilitate \336nding a server that is suf) 60 288.33 P
+-0.06 (\336ciently up-to-date, the) 200.53 288.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.72 (session manager can cache the version vectors of various) 60 276.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.04 (servers. Since a server) 60 264.33 P
+0.04 (\325) 149.9 264.33 P
+0.04 (s database can only grow over time) 152.68 264.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2.22 (in terms of the numbers of W) 60 252.33 P
+2.22 (rites it has received and) 190.69 252.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2.67 (incorporated, cached version vectors represent a lower) 60 240.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(bound on a server) 60 228.33 T
+(\325) 131.74 228.33 T
+(s knowledge.) 134.52 228.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.65 (Caching of data at clients can also be used to improve) 72 216.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.07 (overall performance and data availability) 60 204.33 P
+-0.07 (. However) 223.46 204.33 P
+-0.07 (, notice) 264.63 204.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2.59 (that circumstances may exist under which data that is) 60 192.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.72 (available in the cache cannot be read by an application) 60 180.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.44 (because it does not meet the application\325) 60 168.33 P
+0.44 (s session guaran-) 224.81 168.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.08 (tees. As illustrated in the following example, this situation) 60 156.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2.93 (can arise when applications with dif) 60 144.33 P
+2.93 (ferent consistency) 218.59 144.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+3.52 (requirements are sharing the cache. Suppose a client) 60 132.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.02 (machine is executing two applications, a mail reader and a) 60 120.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.92 (program that collects statistics on the mail messages that) 60 108.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.61 (the user receives. The statistics gathering program has no) 60 96.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.78 (consistency requirements and hence requests no session) 60 84.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.01 (guarantees. On the other hand, the mail reader requires the) 318 707.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2.33 (Monotonic Reads and Read Y) 318 695.33 P
+2.33 (our W) 446.84 695.33 P
+2.33 (rites guarantees as) 474.04 695.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.01 (explained in Examples 2 and 4. Assume that at some point) 318 683.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.71 (the statistics program reads from a server that holds an) 318 671.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.49 (out-dated copy of the user) 318 659.33 P
+0.49 (\325) 424.76 659.33 P
+0.49 (s mail database, thereby \336lling) 427.54 659.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.22 (the cache with old data. When the mail reader executes,) 318 647.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.53 (allowing it to retrieve data from the cache would likely) 318 635.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.02 (violate its Monotonic Reads guarantee. It is important to) 318 623.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2.52 (point out that this type of scenario can occur for any) 318 611.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.55 (weakly consistent replicated system with client caching,) 318 599.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(regardless of the existence of mobile clients.) 318 587.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 12 Q
+(6.  Adding guarantees to existing systems) 318 562 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2 10 Q
+1.12 (Session guarantees could be utilized in many existing) 330 537.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2.8 (systems that provide weakly consistent replicated data) 318 525.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.23 (semantics. V) 318 513.33 P
+1.23 (ersion vector based systems are of the most) 369.78 513.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.3 (interest since they represent systems to which our guaran-) 318 501.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.35 (tees could be added with relatively minimal ef) 318 489.33 P
+0.35 (fort. Exam-) 505.55 489.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.97 (ples of systems that employ version vectors to check the) 318 477.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+3.64 (consistency of database copies include Coda [13,20],) 318 465.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.16 (Ficus [10] \050a successor to Locus [19]\051, OSCAR [7], and) 318 453.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.88 (refdbms [8]. The Coda distributed \336le system is in many) 318 441.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.02 (ways representative of modern-day systems that use ver-) 318 429.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.21 (sion vectors, so we brie\337y examine how to add the four) 318 417.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(session guarantees to Coda.) 318 405.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.33 (Because Coda servers already export access to the ver-) 330 393.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2.83 (sion vectors they maintain, one could readily add the) 318 381.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.24 (Monotonic Reads and Read Y) 318 369.33 P
+1.24 (our W) 442.48 369.33 P
+1.24 (rites guarantees to a) 468.59 369.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.61 (Coda client using the techniques presented in Section 5) 318 357.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.23 (without having to change any code running on Coda serv-) 318 345.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.75 (ers. Moreover) 318 333.33 P
+0.75 (, this upgrade could be done incrementally;) 374.44 333.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.05 (only those users who wanted the session guarantees would) 318 321.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.4 (need to install new client software. The interface between) 318 309.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.47 (applications and the Coda client code would have to be) 318 297.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2.36 (extended so that applications could associate a session) 318 285.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.85 (with their read and write operations and indicate the ses-) 318 273.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(sion guarantees they require.) 318 261.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.19 (Adding the W) 330 249.33 P
+-0.19 (rites Follow Reads and Monotonic W) 385.87 249.33 P
+-0.19 (rites) 534.78 249.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.44 (guarantees would be equally simple since Coda meets the) 318 237.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.72 (propagation requirements described in Section 4. Speci\336-) 318 225.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.46 (cally) 318 213.33 P
+0.46 (, a server that is determined to be out-of-date obtains) 336.79 213.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.14 (newer copies of updated \336les by atomically synchronizing) 318 201.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(the contents of a volume with that of another server) 318 189.33 T
+(.) 523.8 189.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.3 (T) 330 177.33 P
+0.3 (wo dif) 335.41 177.33 P
+0.3 (ferent levels of granularity are possible for ses-) 361.36 177.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.93 (sion guarantees since Coda maintains version vectors for) 318 165.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2.72 (both \336les and volumes. Using volume version vectors) 318 153.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.62 (would allow session guarantees to cover operations span-) 318 141.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.04 (ning multiple \336les within a volume. However) 318 129.33 P
+1.04 (, since vol-) 505.77 129.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.1 (ume version vectors re\337ect all the updates made to any \336le) 318 117.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2.36 (in a volume, clients interacting with only a single \336le) 318 105.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.04 (might prefer to keep track of individual \336le version vec-) 318 93.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(tors to obtain better availability) 318 81.33 T
+(.) 442.9 81.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+FMENDPAGE
+%%EndPage: "8" 8
+%%Page: "9" 9
+612 792 0 FMBEGINPAGE
+[0 0 0 1 0 0 0]
+[ 0 1 1 0 1 0 0]
+[ 1 0 1 0 0 1 0]
+[ 1 1 0 0 0 0 1]
+[ 1 0 0 0 0 1 1]
+[ 0 1 0 0 1 0 1]
+[ 0 0 1 0 1 1 0]
+ 7 FrameSetSepColors
+FrameNoSep
+0 0 0 1 0 0 0 K
+0 12 Q
+0 X
+0 0 0 1 0 0 0 K
+(7.  Related work) 60 706 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2 10 Q
+2.16 (A number of other systems and replication schemes) 72 681.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.14 (exist that provide guarantees between strong consistency) 60 669.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.1 (and weak \050eventual\051 consistency or that provide individual) 60 657.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2.99 (applications some control over their perceived consis-) 60 645.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(tency) 60 633.33 T
+(.) 81.01 633.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.09 (The work that is closest to ours is that of Ladin, Liskov) 72 621.33 P
+-0.09 (,) 291.5 621.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2.68 (Shrira, and Ghemawat on \322causal operations\323 [14]. In) 60 609.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.65 (their design, weakly consistent copies of a database are) 60 597.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+3.5 (updated via \322gossip\323 messages. Clients ensure causal) 60 585.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.9 (ordering of their Read and W) 60 573.33 P
+0.9 (rite operations by means of) 181.55 573.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2.81 (version vectors that accompany each client interaction) 60 561.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2.51 (message. The key dif) 60 549.33 P
+2.51 (ference between their design and) 152.33 549.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.22 (ours is that theirs has no notion of sessions or of being able) 60 537.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.4 (to specify the more \336ne-grained consistency requirements) 60 525.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.49 (that we introduce in this paper) 60 513.33 P
+0.49 (. Also, a client in their sys-) 183.28 513.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.54 (tem cannot switch to another host and have its operations) 60 501.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.68 (be causally ordered with respect to its previous activity) 60 489.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(without doing a heavyweight synchronization action.) 60 477.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.33 (In many systems with lazy replication, such as Lotus) 72 465.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.83 (Notes [12], clients desiring consistency among multiple) 60 453.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.14 (read and/or write operations must, in general, use the same) 60 441.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2.92 (server for their interactions. In contrast, our approach) 60 429.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.41 (focuses on providing guarantees to clients that routinely) 60 417.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(interact with multiple servers.) 60 405.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.59 (As an example of a system that of) 72 393.33 P
+0.59 (fers mobile comput-) 211.73 393.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.82 (ing users and applications a choice of consistency levels,) 60 381.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.05 (the \336le system of T) 60 369.33 P
+1.05 (ait and Duchamp supports both) 140.71 369.33 P
+1 F
+1.05 (strict) 273.44 369.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2 F
+3.67 (and) 60 357.33 P
+1 F
+3.67 (loose) 80.61 357.33 P
+2 F
+3.67 ( read operations [22]. The former provides) 101.72 357.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.1 (strongly consistent semantics, which ensures that the most) 60 345.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.76 (recent version of a \336le existing in the system is returned,) 60 333.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.3 (and the latter provides weakly consistent semantics where) 60 321.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(any available copy is returned.) 60 309.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+4.38 (Much work has been done on providing various) 72 297.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2.32 (\322degrees of consistency\323 in database systems [9]. This) 60 285.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.65 (work focuses on relaxing the isolation between transac-) 60 273.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.74 (tions, yielding reduced consistency) 60 261.33 P
+1.74 (, in order to increase) 205.11 261.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+3.41 (concurrency) 60 249.33 P
+3.41 (. W) 108.77 249.33 P
+3.41 (eakly consistent systems, on the other) 125.82 249.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.21 (hand, generally provide ample concurrency with little or) 60 237.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.1 (no isolation. Our session guarantees are intended to pro-) 60 225.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.62 (vide applications with increased consistency) 60 213.33 P
+1.62 (, but do not) 243.58 213.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.18 (address the problem of isolation between concurrent appli-) 60 201.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.04 (cations. For an example of an attempt to provide increased) 60 189.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2.11 (isolation for clients of a replicated \336le system, see the) 60 177.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.1 (recent proposal by Lu and Satyanarayanan for \322Isolation) 60 165.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(Only T) 60 153.33 T
+(ransactions\323 [16].) 88.26 153.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+3.68 (Another form of intermediate consistency involves) 72 141.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.88 (controlling the amount of inconsistency that may occur) 60 129.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.12 (among data replicas. T) 60 117.33 P
+0.12 (wo examples are bounded inconsis-) 150.76 117.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.22 (tency [3] and quasi-copies [2]. These approaches provide a) 60 105.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.88 (dif) 60 93.33 P
+0.88 (ferent kind of consistency than session guarantees and) 70.93 93.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(should be viewed as complementary techniques.) 60 81.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 12 Q
+(8.  Conclusions) 318 706 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2 10 Q
+-0.11 (Four new per) 330 681.33 P
+-0.11 (-session guarantees have been proposed to) 382.89 681.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.62 (aid users and applications of weakly consistent replicated) 318 669.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.4 (data: Read Y) 318 657.33 P
+0.4 (our W) 370 657.33 P
+0.4 (rites, Monotonic Reads, W) 395.27 657.33 P
+0.4 (rites Follow) 503.54 657.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.76 (Reads, and Monotonic W) 318 645.33 P
+0.76 (rites. These guarantees can pro-) 422.08 645.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.48 (vide an application with a view of the replicated database) 318 633.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.16 (that is consistent with its own Reads and W) 318 621.33 P
+-0.16 (rites performed) 490.79 621.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.29 (in a session even though these operations may be directed) 318 609.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.16 (at dif) 318 597.33 P
+0.16 (ferent servers. The goal is to achieve semantics close) 338.81 597.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.96 (to those of a shared, centralized database while retaining) 318 585.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.42 (the principal bene\336ts of a read-any/write-any replication) 318 573.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2.32 (scheme, namely high-availability) 318 561.33 P
+2.32 (, simplicity) 455.04 561.33 P
+2.32 (, scalability) 501.72 561.33 P
+2.32 (,) 549.5 561.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(and disconnected operation.) 318 549.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.06 (Even with the guarantees, an application must be aware) 330 537.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2.92 (that other users and applications may be concurrently) 318 525.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.74 (updating data that it Reads or W) 318 513.33 P
+1.74 (rites. In particular) 457.48 513.33 P
+1.74 (, our) 531.93 513.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.09 (guarantees do not attempt to provide atomicity of multiple) 318 501.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.04 (updates or serializability of concurrent activities. Indeed,) 318 489.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.1 (these are orthogonal issues and solutions to them can be) 318 477.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.05 (added to a system independent of the guarantees discussed) 318 465.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(in this paper) 318 453.33 T
+(.) 366.89 453.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.98 (A key aspect of our design is that applications may) 330 441.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+3.66 (choose just the guarantees that they require. This is) 318 429.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.3 (accomplished by providing the guarantees within the con-) 318 417.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.28 (text of a session. Moreover) 318 405.33 P
+0.28 (, since sessions are lightweight) 427.3 405.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.45 (entities, a single application may create several sessions) 318 393.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.6 (that it uses to exercise \336ne-grain control over the guaran-) 318 381.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(tees it desires.) 318 369.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2.2 (The main cost of requesting session guarantees is a) 330 357.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2.68 (potential reduction in availability compared to a basic) 318 345.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+3.75 (read-any/write-any replication scheme. W) 318 333.33 P
+3.75 (e expect the) 496.74 333.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.79 (impact on availability to be small in practice. Indeed, for) 318 321.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+3.15 (many clients, such as those employing local caching,) 318 309.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(availability may be only rarely af) 318 297.33 T
+(fected.) 450.85 297.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.53 (Practical implementations of our guarantees have been) 330 285.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.89 (developed. Since no system-wide state is maintained and) 318 273.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.93 (no additional coordination among servers is needed, an) 318 261.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+6.01 (ef) 318 249.33 P
+6.01 (\336cient, localized implementation is possible. The) 325.59 249.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.92 (amount of per) 318 237.33 P
+1.92 (-session state needed to ensure all of the) 377.74 237.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.51 (guarantees is small, consisting of only two version vec-) 318 225.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2.87 (tors. Also, the cost of checking those version vectors) 318 213.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.22 (against a server) 318 201.33 P
+-0.22 (\325) 380.12 201.33 P
+-0.22 (s vectors to determine if the server is suf) 382.9 201.33 P
+-0.22 (\336-) 543.11 201.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.51 (ciently up-to-date is small, and frequently can be amor-) 318 189.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(tized over many session operations.) 318 177.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.28 (The implementation techniques make only a few rea-) 330 165.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.01 (sonable assumptions about how servers order and propa-) 318 153.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.36 (gate updates. In general, the guarantees could be added to) 318 141.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.11 (systems employing a variety of data models, Read/W) 318 129.33 P
+1.11 (rite) 538.67 129.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2.53 (operations, con\337ict resolution procedures, and schemes) 318 117.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(for replica control.) 318 105.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2.8 (Several existing replicated systems already success-) 330 93.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.24 (fully use version vectors in a manner similar to the imple-) 318 81.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+FMENDPAGE
+%%EndPage: "9" 9
+%%Page: "10" 10
+612 792 0 FMBEGINPAGE
+[0 0 0 1 0 0 0]
+[ 0 1 1 0 1 0 0]
+[ 1 0 1 0 0 1 0]
+[ 1 1 0 0 0 0 1]
+[ 1 0 0 0 0 1 1]
+[ 0 1 0 0 1 0 1]
+[ 0 0 1 0 1 1 0]
+ 7 FrameSetSepColors
+FrameNoSep
+0 0 0 1 0 0 0 K
+2 10 Q
+0 X
+0 0 0 1 0 0 0 K
+1.37 (mentation we propose, implying that our guarantees can) 60 707.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.97 (be layered on these systems. In the case of the Coda \336le) 60 695.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.68 (system, the guarantees can be provided simply by chang-) 60 683.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(ing the clients; no changes to the servers are required.) 60 671.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.12 (These session guarantees were developed while design-) 72 659.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.22 (ing a replicated storage system to support mobile comput-) 60 647.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.23 (ing users who may be frequently disconnected yet wish to) 60 635.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.9 (collaborate. An implementation of session guarantees for) 60 623.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.14 (databases that are shared between workstations and laptop) 60 611.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2.45 (computers is currently underway as part of the Bayou) 60 599.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(project at Xerox P) 60 587.33 T
+(ARC.) 132.12 587.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 12 Q
+(9.  Acknowledgments) 60 562 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2 10 Q
+-0.06 (W) 72 537.33 P
+-0.06 (e thank our colleagues with whom we have discussed) 80.64 537.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.23 (many of the ideas in this paper) 60 525.33 P
+0.23 (, especially T) 183.75 525.33 P
+0.23 (om Anderson,) 237.11 525.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.13 (Mary Baker) 60 513.33 P
+1.13 (, Helen Davis, Dan Greene and Carl Hauser) 108.77 513.33 P
+1.13 (,) 291.5 513.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.05 (who provided valuable feedback on earlier versions of this) 60 501.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.61 (paper) 60 489.33 P
+0.61 (. Finally) 81.66 489.33 P
+0.61 (, we appreciate Mark W) 114.96 489.33 P
+0.61 (eiser) 212.97 489.33 P
+0.61 (\325) 232.22 489.33 P
+0.61 (s leadership in) 235 489.33 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(pursuit of the Ubiquitous Computing vision.) 60 477.33 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 12 Q
+(10.  Refer) 60 452 T
+(ences) 109.43 452 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2 9 Q
+([1]) 60 428 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.22 0.31 (D. Agrawal and A. Malpani. Ef) 78 428 B
+0.22 0.31 (f) 201.53 428 B
+0.22 0.31 (icient dissemination of) 204.34 428 B
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.22 0.09 (information in computer networks.) 78 418 B
+1 F
+0.22 0.09 (The Computer Journal) 209.79 418 B
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2 F
+(34\0506\051:534-541, December 1991.) 78 408 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+([2]) 60 397 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.01 (R. Alonso, D. Barbara, and H. Garcia-Molina. Data caching) 78 397 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.22 0.21 (issues in an information retrieval system.) 78 387 B
+1 F
+0.22 0.21 (ACM T) 238.46 387 B
+0.22 0.21 (ransac-) 265.47 387 B
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(tions on Database Systems) 78 377 T
+2 F
+( 15\0503\051:359-384, September 1990.) 174.25 377 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+([3]) 60 366 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.22 0.11 (D. Barbara-Milla and H. Garcia-Molina. The demarcation) 78 366 B
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.11 (protocol: A technique for maintaining constraints in distrib-) 78 356 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(uted database systems. T) 78 346 T
+(o appear in) 166.86 346 T
+1 F
+(VLDB Journal) 209.09 346 T
+2 F
+(.) 261.84 346 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+([4]) 60 335 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.2 (A. Birrell, R. Levin, R. M. Needham, and M. D. Schroeder) 78 335 P
+0.2 (.) 291.75 335 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.22 0.06 (Grapevine: An exercise in distributed computing.) 78 325 B
+1 F
+0.22 0.06 (Commu-) 262.74 325 B
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(nications of the ACM) 78 315 T
+2 F
+( 25\0504\051:260-274, April 1982.) 154.75 315 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+([5]) 60 304 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.22 0.01 (S. Davidson, H. Garcia-Molina, and D. Skeen. Consistency) 78 304 B
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.22 0.14 (in a partitioned network: A survey) 78 294 B
+0.22 0.14 (.) 207.21 294 B
+1 F
+0.22 0.14 (ACM Computing Sur-) 212.23 294 B
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(veys) 78 284 T
+2 F
+( 17\0503\051:341-370, September 1985.) 93.49 284 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+([6]) 60 273 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.22 0.19 (A. Demers, D. Greene, C. Hauser) 78 273 B
+0.22 0.19 (, W) 205.67 273 B
+0.22 0.19 (. Irish, J. Larson, S.) 218.64 273 B
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.22 0.07 (Shenker) 78 263 B
+0.22 0.07 (, H. Stur) 107.6 263 B
+0.22 0.07 (gis, D. Swinehart, and D. T) 138.98 263 B
+0.22 0.07 (erry) 240.01 263 B
+0.22 0.07 (. Epidemic) 254.18 263 B
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.22 0.14 (algorithms for replicated database maintenance.) 78 253 B
+1 F
+0.22 0.14 (Pr) 260.48 253 B
+0.22 0.14 (oceed-) 269.44 253 B
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.11 (ings Sixth Symposium on Principles of Distributed Comput-) 78 243 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(ing) 78 233 T
+2 F
+(, V) 89.5 233 T
+(ancouver) 99.5 233 T
+(, B.C., Canada, August 1987, pages 1-12.) 132.13 233 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+([7]) 60 222 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.22 0.07 (A. R. Downing, I. B. Greenber) 78 222 B
+0.22 0.07 (g, and J. M. Peha. OSCAR:) 191.92 222 B
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.22 0.23 (A system for weak-consistency replication.) 78 212 B
+1 F
+0.22 0.23 (Pr) 247.03 212 B
+0.22 0.23 (oceedings) 256.16 212 B
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.13 (W) 78 202 P
+-0.13 (orkshop on the Management of Replicated Data) 84.67 202 P
+2 F
+-0.13 (, Houston,) 256.88 202 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(T) 78 192 T
+(exas, November 1990, pages 26-30.) 82.87 192 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+([8]) 60 181 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.22 0.05 (R A. Golding. W) 78 181 B
+0.22 0.05 (eak consistency group communication for) 140.38 181 B
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.22 0.17 (wide-area systems.) 78 171 B
+1 F
+0.22 0.17 (Pr) 152.32 171 B
+0.22 0.17 (oceedings Second W) 161.32 171 B
+0.22 0.17 (orkshop on the) 237.9 171 B
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.22 0.3 (Management of Replicated Data) 78 161 B
+2 F
+0.22 0.3 (, Monterey) 204.72 161 B
+0.22 0.3 (, California,) 246.88 161 B
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(November 1992, pages 13-16.) 78 151 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+([9]) 318 708 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.22 0.15 (J. Gray and A. Reuter) 336 708 B
+0.22 0.15 (.) 418.04 708 B
+1 F
+0.22 0.15 (T) 423.07 708 B
+0.22 0.15 (ransaction Pr) 427.73 708 B
+0.22 0.15 (ocessing: Concepts) 479.33 708 B
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.22 0.01 (and T) 336 698 B
+0.22 0.01 (echniques) 356.19 698 B
+2 F
+0.22 0.01 (. Mor) 392.25 698 B
+0.22 0.01 (gan Kaufmann Publishers, San Mateo,) 412.35 698 B
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(California, 1993.) 336 688 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+([10]) 318 677 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.22 0.23 (R.G. Guy) 336 677 B
+0.22 0.23 (, J.S. Heidemann, W) 372.23 677 B
+0.22 0.23 (. Mak, T) 450.68 677 B
+0.22 0.23 (.W) 483.3 677 B
+0.22 0.23 (. Page, Jr) 493.67 677 B
+0.22 0.23 (., G.J.) 528.92 677 B
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.22 0.01 (Popek, and D. Rothmeier) 336 667 B
+0.22 0.01 (. Implementation of the Ficus rep-) 427.62 667 B
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.03 (licated \336le system.) 336 657 P
+1 F
+0.03 (USENIX Confer) 405.6 657 P
+0.03 (ence Pr) 463.55 657 P
+0.03 (oceedings) 490.98 657 P
+2 F
+0.03 (, pages) 526.97 657 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(63-71, USENIX, June 1990.) 336 647 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+([1) 318 636 T
+(1]) 325.16 636 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.22 0.22 (T) 336 636 B
+0.22 0.22 (. Imielinski and B. R. Badrinath. Data management for) 341.05 636 B
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.22 0.29 (mobile computing.) 336 626 B
+1 F
+0.22 0.29 (ACM) 411.87 626 B
+0.22 0.29 (SIGMOD Recor) 434.49 626 B
+0.22 0.29 (d) 496.05 626 B
+2 F
+0.22 0.29 ( 22\0501\051:34-39,) 500.84 626 B
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(March 1993.) 336 616 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+([12]) 318 605 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.22 0.03 (L. Kalwell Jr) 336 605 B
+0.22 0.03 (., S. Beckhardt, T) 383.62 605 B
+0.22 0.03 (. Halvorsen, R. Ozzie, and I.) 447.46 605 B
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.22 0.14 (Greif. Replicated document management in a group com-) 336 595 B
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.22 0.04 (munication system.) 336 585 B
+1 F
+0.22 0.04 (Pr) 409.51 585 B
+0.22 0.04 (oceedings Confer) 418.26 585 B
+0.22 0.04 (ence on Computer) 482.07 585 B
+0.22 0.04 (-) 549 585 B
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.22 0.01 (Supported Cooperative W) 336 575 B
+0.22 0.01 (ork) 429.42 575 B
+2 F
+0.22 0.01 (, Portland, Oregon, September) 441.46 575 B
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(1988.) 336 565 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+([13]) 318 554 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.17 (J. J. Kistler and M. Satyanarayanan. Disconnected operation) 336 554 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.22 0.02 (in the Coda f) 336 544 B
+0.22 0.02 (ile system.) 383.24 544 B
+1 F
+0.22 0.02 (Pr) 424.73 544 B
+0.22 0.02 (oceedings Thirteenth ACM Sym-) 433.44 544 B
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.22 0.23 (posium on Operating Systems Principles) 336 534 B
+2 F
+0.22 0.23 (, Pacif) 492.12 534 B
+0.22 0.23 (ic Grove,) 516.45 534 B
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(California, October 1991, pages 213-225.) 336 524 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+([14]) 318 513 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.04 (R. Ladin, B. Liskov) 336 513 P
+0.04 (, L. Shrira, and S. Ghemawat. Providing) 407.03 513 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.22 0.07 (high availability using lazy replication.) 336 503 B
+1 F
+0.22 0.07 (ACM T) 482.99 503 B
+0.22 0.07 (ransactions) 509.31 503 B
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(on Computer Systems) 336 493 T
+2 F
+( 10\0504\051:360-391, November 1992.) 413.99 493 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+([15]) 318 482 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.22 0.14 (L. Lamport. T) 336 482 B
+0.22 0.14 (ime, clocks, and the ordering of events in a) 388.98 482 B
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.04 (distributed system.) 336 472 P
+1 F
+0.04 (Communications of the ACM) 406.34 472 P
+2 F
+0.04 ( 21\0507\051:558-) 511.21 472 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(565, July 1978.) 336 462 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+([16]) 318 451 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.22 0.12 (Q. Lu and M. Satyanarayanan. Isolation-only transactions) 336 451 B
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.22 0.29 (for mobile computing.) 336 441 B
+1 F
+0.22 0.29 (ACM Operating Systems Review) 426.15 441 B
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2 F
+(28\0502\051:81-87, April 1994.) 336 431 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+([17]) 318 420 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.22 0 (D. C. Oppen and Y) 336 420 B
+0.22 0 (. K. Dalal. The Clearinghouse: A decen-) 405.29 420 B
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.22 0.2 (tralized agent for locating named objects in a distributed) 336 410 B
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.13 (environment.) 336 400 P
+1 F
+0.13 (ACM T) 386.12 400 P
+0.13 (ransactions on Of\336ce Information Sys-) 412.01 400 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(tems) 336 390 T
+2 F
+( 1\0503\051:230-253, July 1983.) 352.5 390 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+([18]) 318 379 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.22 0.12 (D. S. Parker) 336 379 B
+0.22 0.12 (, G. J. Popek, G. Rudisin, A. Stoughton, B. J.) 381.56 379 B
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.22 0.08 (W) 336 369 B
+0.22 0.08 (alker) 343.86 369 B
+0.22 0.08 (, E. W) 361.9 369 B
+0.22 0.08 (alton, J. M. Chow) 385.12 369 B
+0.22 0.08 (, D. Edwards, S. Kiser) 451.11 369 B
+0.22 0.08 (, and) 533.95 369 B
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.22 0.11 (C. Kline. Detection of mutual inconsistency in distributed) 336 359 B
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.22 0.11 (systems.) 336 349 B
+1 F
+0.22 0.11 (IEEE T) 370.2 349 B
+0.22 0.11 (ransactions on Softwar) 397.33 349 B
+0.22 0.11 (e Engineering) 483.33 349 B
+2 F
+0.22 0.11 ( SE-) 535.7 349 B
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(9\0503\051:240-246, May 1983.) 336 339 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+([19]) 318 328 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.22 0.21 (G. Popek, B. W) 336 328 B
+0.22 0.21 (alker) 395.85 328 B
+0.22 0.21 (, J. Chow) 414.52 328 B
+0.22 0.21 (, D. Edwards, C. Kline, G.) 450.25 328 B
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.19 (Rudisin, and G. Thiel. LOCUS: A network transparent, high) 336 318 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.22 0.13 (reliability distributed system.) 336 308 B
+1 F
+0.22 0.13 (Pr) 448.38 308 B
+0.22 0.13 (oceedings Eighth Sympo-) 457.31 308 B
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.22 0.01 (sium on Operating Systems Principles) 336 298 B
+2 F
+0.22 0.01 (, Pacif) 474.84 298 B
+0.22 0.01 (ic Grove, Cali-) 497.65 298 B
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(fornia, December 1981, pages 169-177.) 336 288 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+([20]) 318 277 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.22 0.15 (M. Satyanarayanan, J.J. Kistler) 336 277 B
+0.22 0.15 (, P) 453.21 277 B
+0.22 0.15 (. Kumar) 462.39 277 B
+0.22 0.15 (, M.E. Okasaki,) 492.8 277 B
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.22 0.09 (E.H. Siegel, and D.C. Steere. Coda: a highly available f) 336 267 B
+0.22 0.09 (ile) 542.82 267 B
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.22 0.25 (system for a distributed workstation environment.) 336 257 B
+1 F
+0.22 0.25 (IEEE) 531.75 257 B
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(T) 336 247 T
+(ransactions on Computers) 340.51 247 T
+2 F
+( 39\0504\051:447-459, April 1990.) 435.51 247 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+([21]) 318 236 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.22 0.02 (M. D. Schroeder) 336 236 B
+0.22 0.02 (, A. D. Birrell, and R. M. Needham. Expe-) 396.32 236 B
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.22 0.03 (rience with Grapevine: The growth of a distributed system.) 336 226 B
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1 F
+0.22 0.04 (ACM T) 336 216 B
+0.22 0.04 (ransactions on Computer Systems) 362.17 216 B
+2 F
+0.22 0.04 ( 2\0501\051:3-23, Febru-) 486.23 216 B
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(ary 1984.) 336 206 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+([22]) 318 195 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.22 0.14 (C. D. T) 336 195 B
+0.22 0.14 (ait and D. Duchamp. Service interface and replica) 363.81 195 B
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.22 0.07 (management algorithm for mobile f) 336 185 B
+0.22 0.07 (ile system clients.) 467.15 185 B
+1 F
+0.22 0.07 (Pr) 535.7 185 B
+0.22 0.07 (o-) 544.5 185 B
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.22 0.21 (ceedings First International Confer) 336 175 B
+0.22 0.21 (ence on Parallel and) 472.04 175 B
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.22 0.21 (Distributed Information Systems) 336 165 B
+2 F
+0.22 0.21 (, December 1991, pages) 460.1 165 B
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(190-197.) 336 155 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+FMENDPAGE
+%%EndPage: "10" 10
+%%Trailer
+%%BoundingBox: 0 0 612 792
+%%PageOrder: Ascend
+%%Pages: 10
+%%DocumentFonts: Times-Bold
+%%+ Times-Italic
+%%+ Times-Roman
+%%+ Courier-Bold
+%%+ Helvetica-Bold
+%%EOF
