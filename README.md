@@ -1,7 +1,7 @@
 # distributed-system
 分布式系统学习
 
-今天准备开始重启2018课程的学习，2018课程地址：https://pdos.csail.mit.edu/6.824/schedule.html ，欢迎star
+今天 2018.03.01 准备开始重启2018课程的学习，2018课程地址：https://pdos.csail.mit.edu/6.824/schedule.html ，欢迎star
 
 期待我们在接下去的学习中共同进步！
 
