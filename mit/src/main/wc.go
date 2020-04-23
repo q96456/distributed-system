@@ -15,6 +15,7 @@ import (
 // key/value pairs, each represented by a mapreduce.KeyValue.
 func mapF(document string, value string) (res []mapreduce.KeyValue) {
 	// document是文件名,value是文件内容
+	//test
 	values := strings.FieldsFunc(value,func(c rune) bool{
 			return !unicode.IsLetter(c)
 	})
