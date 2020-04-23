@@ -29,6 +29,7 @@ func mapF(document string, value string) (res []mapreduce.KeyValue) {
 // should be a single output value for that key.
 func reduceF(key string, values []string) string {
 	// reduce函数返回个数
+	//测试权限
 	var cnt int
 	for _, value := range values {
 		n, err := strconv.Atoi(value)
